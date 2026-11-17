@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import {
   ArrowRight, ArrowUpRight, Target, Megaphone, Users, BarChart3, Search,
   Mail, Menu, X, Rocket, CheckCircle2, Globe2, Lightbulb, Clapperboard,
-  MonitorSmartphone, FileText, ChevronDown, Instagram, Facebook, Linkedin,
+MonitorSmartphone, FileText, ChevronDown,
   MessageCircle, Send, ExternalLink, ShieldCheck, Layers, PlayCircle
 } from "lucide-react";
 import "./styles.css";
