@@ -223,3 +223,8 @@ body{background:#f4f6fb;color:var(--ink)}
 @media(max-width:900px){.platform-inner{grid-template-columns:1fr;gap:18px}.platform-logos{grid-column:auto}.process-line:before{display:none}}
 @media(max-width:720px){.platforms,.about-preview,.services-preview,.pricing-preview,.process-preview,.why,.faq-preview{padding-block:68px}.platform-logos{gap:12px;padding:18px}.platform-logos b{font-size:14px}.about-preview .blue-panel{min-height:320px}.pricing-box{padding:30px 24px}.process-mini{padding:23px}.why-grid>div{min-height:unset}.newsletter-inner{padding:25px 20px}.final-cta{padding-block:70px}}
 @media(prefers-reduced-motion:reduce){.about-preview .blue-panel:before,.about-preview .blue-panel:after,.pricing-box:after{animation:none!important}}
+
+/* Final homepage spacing adjustment: clear white separation after the hero. */
+.hero + .platforms {
+  margin-top: 34px;
+}
