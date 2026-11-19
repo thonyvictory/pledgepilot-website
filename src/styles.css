@@ -226,5 +226,11 @@ body{background:#f4f6fb;color:var(--ink)}
 
 /* Final homepage spacing adjustment: clear white separation after the hero. */
 .hero + .platforms {
-  margin-top: 34px;
+  margin-top: 96px;
+}
+
+@media (max-width: 720px) {
+  .hero + .platforms {
+    margin-top: 56px;
+  }
 }
