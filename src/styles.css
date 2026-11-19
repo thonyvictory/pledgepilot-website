@@ -234,3 +234,72 @@ body{background:#f4f6fb;color:var(--ink)}
     margin-top: 56px;
   }
 }
+
+/* Newsletter input stability and premium analytics presentation */
+.analytics-section{
+  position:relative;
+  overflow:hidden;
+  background:radial-gradient(ellipse at 8% 12%,rgba(75,111,220,.22),transparent 34%),radial-gradient(ellipse at 92% 88%,rgba(64,101,207,.18),transparent 32%),linear-gradient(135deg,#0b1731 0%,#14264b 58%,#1a3264 100%);
+}
+.analytics-section .section-heading h2,
+.analytics-section .section-heading h2 em{color:#fff}
+.analytics-section .section-heading p{color:#c5d0e7}
+.analytics-section .eyebrow{color:#9db7ff}
+.analytics-grid{gap:22px;align-items:stretch}
+.analytics-image{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:285px;
+  padding:15px;
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:22px;
+  background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.06));
+  box-shadow:0 22px 55px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.16);
+  backdrop-filter:blur(10px);
+  transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;
+}
+.analytics-image:hover{
+  transform:translateY(-7px);
+  border-color:rgba(157,183,255,.7);
+  box-shadow:0 30px 65px rgba(0,0,0,.32),0 0 0 1px rgba(157,183,255,.12);
+}
+.analytics-image img{
+  width:100%;
+  height:235px;
+  padding:12px;
+  object-fit:contain;
+  background:linear-gradient(145deg,#fff,#f3f6fc);
+  border:1px solid rgba(255,255,255,.75);
+  border-radius:13px;
+  box-shadow:0 8px 24px rgba(4,13,31,.16);
+}
+.analytics-image span{
+  position:static;
+  align-self:flex-end;
+  margin-top:12px;
+  padding:7px 10px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.18);
+  color:#fff;
+  border-radius:999px;
+  font-size:11px;
+}
+.analytics-image span svg{width:14px;height:14px}
+.analytics-section .privacy-note{
+  color:#c5d0e7;
+  padding:13px 16px;
+  border:1px solid rgba(255,255,255,.13);
+  background:rgba(255,255,255,.07);
+  border-radius:12px;
+}
+.analytics-section .privacy-note svg{color:#a9beff}
+@media(max-width:950px){.analytics-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.analytics-image:last-child{grid-column:1/-1}}
+@media(max-width:720px){
+  .analytics-section{padding-block:62px}
+  .analytics-grid{grid-template-columns:1fr;gap:17px}
+  .analytics-image:last-child{grid-column:auto}
+  .analytics-image{min-height:unset;padding:12px}
+  .analytics-image img{height:220px}
+  .analytics-section .privacy-note{align-items:flex-start;line-height:1.6}
+}
