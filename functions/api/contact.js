@@ -9,37 +9,91 @@ const escapeHtml = (value = "") =>
   })[char]);
 
 const signature = `
-  <table cellpadding="0" cellspacing="0" style="margin-top:24px;border-top:1px solid #e5e7eb;padding-top:18px;font-family:Arial,sans-serif;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+    style="width:100%;max-width:620px;margin-top:26px;border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
     <tr>
-      <td>
-        <a href="https://pledgepilot.online" style="text-decoration:none;">
-          <img src="https://pledgepilot.online/images/pledgepilot-logo.png"
-            alt="PledgePilot" width="150"
-            style="display:block;border:0;max-width:150px;height:auto;">
-        </a>
-        <p style="margin:12px 0 4px;color:#142d50;font-size:15px;font-weight:bold;">
-          PledgePilot Team
-        </p>
-        <p style="margin:0 0 5px;color:#64748b;font-size:13px;">
-          Crowdfunding Growth &amp; Marketing
-        </p>
-        <p style="margin:0 0 12px;color:#64748b;font-size:12px;">
-          Kickstarter | Indiegogo
-        </p>
-        <p style="margin:0 0 12px;font-size:12px;">
-          <a href="https://www.instagram.com/pledgepilot/" style="color:#2563eb;text-decoration:none;">Instagram</a>
-          &nbsp;|&nbsp;
-          <a href="https://www.facebook.com/profile.php?id=61594922333588" style="color:#2563eb;text-decoration:none;">Facebook</a>
-          &nbsp;|&nbsp;
-          <a href="https://www.tiktok.com/@pledgepilot" style="color:#2563eb;text-decoration:none;">TikTok</a>
-          &nbsp;|&nbsp;
-          <a href="https://x.com/PledgePilot" style="color:#2563eb;text-decoration:none;">X</a>
-          &nbsp;|&nbsp;
-          <a href="https://wa.me/15709271401" style="color:#2563eb;text-decoration:none;">WhatsApp</a>
-        </p>
-        <p style="margin:0;color:#2563eb;font-size:12px;font-weight:bold;letter-spacing:1px;">
-          ELEVATE YOUR SUCCESS
-        </p>
+      <td style="border-top:1px solid #dbe3ef;padding-top:18px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;">
+          <tr>
+            <td width="165" valign="middle" style="width:165px;padding:8px 18px 8px 0;border-right:2px solid #1764df;">
+              <a href="https://pledgepilot.online" target="_blank" style="text-decoration:none;">
+                <img src="https://pledgepilot.online/images/pledgepilot-logo.png"
+                  alt="PledgePilot — pledgepilot.online"
+                  width="145"
+                  style="display:block;width:145px;max-width:145px;height:auto;border:0;outline:none;text-decoration:none;">
+              </a>
+              <div style="padding-top:7px;">
+                <a href="https://pledgepilot.online" target="_blank"
+                  style="color:#1764df;font-size:12px;font-weight:bold;text-decoration:none;">
+                  pledgepilot.online
+                </a>
+              </div>
+            </td>
+
+            <td valign="middle" style="padding:6px 0 6px 20px;">
+              <div style="font-size:25px;line-height:1.2;font-weight:700;letter-spacing:-0.5px;color:#14264f;">
+                <span style="color:#1764df;">Pledge</span>Pilot Team
+              </div>
+
+              <div style="padding-top:8px;font-size:15px;line-height:1.5;color:#14264f;">
+                Crowdfunding Growth &amp; Marketing
+              </div>
+
+              <div style="padding-top:3px;font-size:15px;line-height:1.5;font-weight:700;color:#14264f;">
+                Kickstarter <span style="color:#1764df;">|</span> Indiegogo
+              </div>
+
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+                style="margin-top:14px;border-collapse:collapse;">
+                <tr>
+                  <td style="padding:0 10px 0 0;">
+                    <a href="https://www.instagram.com/pledgepilot/" target="_blank" aria-label="Instagram">
+                      <img src="https://cdn.simpleicons.org/instagram/E4405F"
+                        width="27" height="27" alt="Instagram"
+                        style="display:block;width:27px;height:27px;border:0;">
+                    </a>
+                  </td>
+
+                  <td style="border-left:1px solid #aab6ca;padding:0 10px;">
+                    <a href="https://web.facebook.com/profile.php?id=61594922333588" target="_blank" aria-label="Facebook">
+                      <img src="https://cdn.simpleicons.org/facebook/1877F2"
+                        width="27" height="27" alt="Facebook"
+                        style="display:block;width:27px;height:27px;border:0;">
+                    </a>
+                  </td>
+
+                  <td style="border-left:1px solid #aab6ca;padding:0 10px;">
+                    <a href="https://www.tiktok.com/@pledgepilot" target="_blank" aria-label="TikTok">
+                      <img src="https://cdn.simpleicons.org/tiktok/111111"
+                        width="27" height="27" alt="TikTok"
+                        style="display:block;width:27px;height:27px;border:0;">
+                    </a>
+                  </td>
+
+                  <td style="border-left:1px solid #aab6ca;padding:0 10px;">
+                    <a href="https://x.com/PledgePilot" target="_blank" aria-label="X">
+                      <img src="https://cdn.simpleicons.org/x/111111"
+                        width="27" height="27" alt="X"
+                        style="display:block;width:27px;height:27px;border:0;">
+                    </a>
+                  </td>
+
+                  <td style="border-left:1px solid #aab6ca;padding:0 0 0 10px;">
+                    <a href="https://wa.me/15709271401" target="_blank" aria-label="WhatsApp">
+                      <img src="https://cdn.simpleicons.org/whatsapp/25D366"
+                        width="27" height="27" alt="WhatsApp"
+                        style="display:block;width:27px;height:27px;border:0;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <div style="margin-top:14px;padding:9px 14px;background:#0758d8;color:#ffffff;font-size:14px;line-height:1.4;font-weight:700;letter-spacing:2px;text-align:center;">
+                ELEVATE YOUR SUCCESS
+              </div>
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
@@ -69,9 +123,13 @@ export async function onRequestPost({ request, env }) {
       );
     }
 
-    if (name.length > 120 || email.length > 254 ||
-        link.length > 2048 || stage.length > 100 ||
-        message.length > 5000) {
+    if (
+      name.length > 120 ||
+      email.length > 254 ||
+      link.length > 2048 ||
+      stage.length > 100 ||
+      message.length > 5000
+    ) {
       return Response.json(
         { success: false, message: "One or more fields are too long." },
         { status: 400 }
@@ -79,6 +137,7 @@ export async function onRequestPost({ request, env }) {
     }
 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if (!emailPattern.test(email)) {
       return Response.json(
         { success: false, message: "Please enter a valid email address." },
@@ -88,6 +147,7 @@ export async function onRequestPost({ request, env }) {
 
     if (link) {
       let parsedLink;
+
       try {
         parsedLink = new URL(link);
       } catch {
@@ -130,7 +190,7 @@ export async function onRequestPost({ request, env }) {
       return result;
     };
 
-    // Notify the PledgePilot team.
+    // Send enquiry notification to PledgePilot.
     await sendEmail({
       from: "PledgePilot <contact@pledgepilot.online>",
       to: ["contact@pledgepilot.online"],
@@ -148,10 +208,18 @@ export async function onRequestPost({ request, env }) {
           ${signature}
         </div>
       `,
-      text: `New PledgePilot enquiry\n\nCreator: ${name}\nEmail: ${email}\nProject link: ${link || "Not provided"}\nCampaign stage: ${stage}\n\nRequirements:\n${message}`
+      text: `New PledgePilot enquiry
+
+Creator: ${name}
+Email: ${email}
+Project link: ${link || "Not provided"}
+Campaign stage: ${stage}
+
+Requirements:
+${message}`
     });
 
-    // Confirm receipt to the creator.
+    // Send confirmation email to the creator.
     let confirmationSent = false;
 
     try {
@@ -161,14 +229,21 @@ export async function onRequestPost({ request, env }) {
         subject: "We've received your PledgePilot enquiry",
         html: `
           <div style="font-family:Arial,sans-serif;color:#334155;line-height:1.7;">
-            <h2 style="color:#142d50;">Thank you for contacting PledgePilot, ${safeName}.</h2>
+            <h2 style="color:#142d50;">
+              Thank you for contacting PledgePilot, ${safeName}.
+            </h2>
             <p>We've successfully received your project enquiry.</p>
             <p>Our team will review the information you've shared and get back to you regarding the next steps.</p>
             <p>Thank you for considering PledgePilot for your crowdfunding journey.</p>
             ${signature}
           </div>
         `,
-        text: `Hello ${name},\n\nThank you for contacting PledgePilot. We've received your project enquiry and our team will review it and get back to you regarding the next steps.\n\nPledgePilot Team`
+        text: `Hello ${name},
+
+Thank you for contacting PledgePilot. We've received your project enquiry and our team will review it and get back to you regarding the next steps.
+
+PledgePilot Team
+https://pledgepilot.online`
       });
 
       confirmationSent = true;
@@ -186,7 +261,10 @@ export async function onRequestPost({ request, env }) {
     console.error("Contact form error:", error.message);
 
     return Response.json(
-      { success: false, message: "We couldn't process your enquiry. Please try again." },
+      {
+        success: false,
+        message: "We couldn't process your enquiry. Please try again."
+      },
       { status: 502 }
     );
   }
