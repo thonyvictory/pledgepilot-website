@@ -60,6 +60,8 @@ function App(){
   const [selectedImage,setSelectedImage] = useState(null);
   const [form,setForm] = useState({name:"",email:"",link:"",stage:"",message:""});
   const [newsletter,setNewsletter] = useState("");
+  const [contactStatus,setContactStatus] = useState("");
+  const [contactLoading,setContactLoading] = useState(false);
 
   useEffect(()=>{
     const sync=()=>setPage(window.location.hash.replace("#","") || "home");
@@ -88,10 +90,32 @@ function App(){
   },[campaigns,query]);
   const money=(value,currency)=>new Intl.NumberFormat("en-US",{style:"currency",currency,maximumFractionDigits:0}).format(value);
 
-  const submitContact=(e)=>{
+  const submitContact = async (e) => {
     e.preventDefault();
-    const body=`Creator name: ${form.name}\nEmail: ${form.email}\nProject link: ${form.link}\nCampaign stage: ${form.stage}\n\nWhat I need:\n${form.message}`;
-    window.location.href=`mailto:contact@pledgepilot.online?subject=${encodeURIComponent("PledgePilot project enquiry")}&body=${encodeURIComponent(body)}`;
+    setContactStatus("");
+    setContactLoading(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form)
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || "Unable to send enquiry.");
+      }
+
+      setContactStatus("success");
+      setForm({name:"",email:"",link:"",stage:"",message:""});
+    } catch (error) {
+      console.error("Contact form submission failed:", error);
+      setContactStatus("error");
+    } finally {
+      setContactLoading(false);
+    }
   };
   const submitNewsletter=(e)=>{
     e.preventDefault();
@@ -140,7 +164,10 @@ function App(){
 
   const About=()=> <><PageIntro eyebrow="ABOUT PLEDGEPILOT" title={<>Helping promising ideas find their <em>relevant audience.</em></>} desc="PledgePilot is an international crowdfunding marketing agency serving creators, entrepreneurs and businesses worldwide."/><section className="section"><div className="container about-content"><div><span className="eyebrow">OUR APPROACH</span><h2>Strategy before noise.<br/><em>Purpose behind every action.</em></h2></div><div><p>We believe a strong crowdfunding campaign needs more than a compelling idea. It needs a clear story, a defined audience, thoughtful preparation and coordinated promotion.</p><p>Our work brings together research, campaign positioning, audience development and marketing execution. We support creators at different stages — from exploring crowdfunding for the first time to improving the visibility of an active campaign.</p><p>Our specialist platform focus is Kickstarter and Indiegogo. We work with clients internationally and tailor our recommendations to each project's needs.</p><a className="btn btn-primary" href="#contact">Talk with PledgePilot <ArrowRight size={16}/></a></div></div></section></>;
 
-  const Contact=()=> <><PageIntro eyebrow="CONTACT" title={<>Let's talk about <em>what you're building.</em></>} desc="Whether you're exploring crowdfunding, preparing to launch or managing a live campaign, tell us what support you need."/><section className="section contact-section"><div className="container contact-grid"><div className="contact-info"><span className="eyebrow">GET IN TOUCH</span><h2>Start with a <em>conversation.</em></h2><p>Share a few details about your project. Our team can review your enquiry and discuss a suitable next step.</p><a href="mailto:contact@pledgepilot.online"><Mail/>contact@pledgepilot.online</a><a href="https://wa.me/15709271401" target="_blank" rel="noreferrer"><MessageCircle/>+1 570-927-1401</a><div className="contact-socials">{socials.map(s=><a href={s.href} key={s.name} target="_blank" rel="noreferrer"><SocialIcon name={s.name}/>{s.label}<ArrowUpRight size={13}/></a>)}</div><div className="contact-platforms"><span>PLATFORM SPECIALISTS</span><b>Kickstarter</b><b>Indiegogo</b></div></div><form className="contact-form" onSubmit={submitContact}><h3>Tell us about your project</h3><p>Fields marked with * are required.</p><label>Creator name *<input required value={form.name} onChange={e=>setForm({...form,name:e.target.value})} placeholder="Your name"/></label><label>Email address *<input required type="email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} placeholder="you@example.com"/></label><label>Project link<input type="url" value={form.link} onChange={e=>setForm({...form,link:e.target.value})} placeholder="https://"/></label><label>Campaign stage *<select required value={form.stage} onChange={e=>setForm({...form,stage:e.target.value})}><option value="">Select your campaign stage</option><option>Planning a Campaign</option><option>Preparing for Launch</option><option>Pre-Launch</option><option>Campaign Is Live</option><option>Campaign Nearing Completion</option><option>Relaunching a Campaign</option></select></label><label>Briefly describe what you need *<textarea required rows="5" value={form.message} onChange={e=>setForm({...form,message:e.target.value})} placeholder="Tell us about your project and the support you're looking for..."/></label><button className="btn btn-primary">Send enquiry <ArrowRight size={16}/></button><small>Submitting opens your email app with your enquiry details addressed to PledgePilot.</small></form></div></section></>;
+  const Contact=()=> <><PageIntro eyebrow="CONTACT" title={<>Let's talk about <em>what you're building.</em></>} desc="Whether you're exploring crowdfunding, preparing to launch or managing a live campaign, tell us what support you need."/><section className="section contact-section"><div className="container contact-grid"><div className="contact-info"><span className="eyebrow">GET IN TOUCH</span><h2>Start with a <em>conversation.</em></h2><p>Share a few details about your project. Our team can review your enquiry and discuss a suitable next step.</p><a href="mailto:contact@pledgepilot.online"><Mail/>contact@pledgepilot.online</a><a href="https://wa.me/15709271401" target="_blank" rel="noreferrer"><MessageCircle/>+1 570-927-1401</a><div className="contact-socials">{socials.map(s=><a href={s.href} key={s.name} target="_blank" rel="noreferrer"><SocialIcon name={s.name}/>{s.label}<ArrowUpRight size={13}/></a>)}</div><div className="contact-platforms"><span>PLATFORM SPECIALISTS</span><b>Kickstarter</b><b>Indiegogo</b></div></div><form className="contact-form" onSubmit={submitContact}><h3>Tell us about your project</h3><p>Fields marked with * are required.</p><label>Creator name *<input required value={form.name} onChange={e=>setForm({...form,name:e.target.value})} placeholder="Your name"/></label><label>Email address *<input required type="email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} placeholder="you@example.com"/></label><label>Project link<input type="url" value={form.link} onChange={e=>setForm({...form,link:e.target.value})} placeholder="https://"/></label><label>Campaign stage *<select required value={form.stage} onChange={e=>setForm({...form,stage:e.target.value})}><option value="">Select your campaign stage</option><option>Planning a Campaign</option><option>Preparing for Launch</option><option>Pre-Launch</option><option>Campaign Is Live</option><option>Campaign Nearing Completion</option><option>Relaunching a Campaign</option></select></label><label>Briefly describe what you need *<textarea required rows="5" value={form.message} onChange={e=>setForm({...form,message:e.target.value})} placeholder="Tell us about your project and the support you're looking for..."/></label><button className="btn btn-primary" type="submit" disabled={contactLoading}>{contactLoading ? "Sending..." : "Send enquiry"} {!contactLoading && <ArrowRight size={16}/>}</button>
+    {contactStatus === "success" && <p role="status" style={{color:"green"}}>Your enquiry has been received successfully. Please check your email for confirmation.</p>}
+    {contactStatus === "error" && <p role="alert" style={{color:"red"}}>We couldn't send your enquiry. Please try again.</p>}
+    <small>Your information will be sent securely to the PledgePilot team.</small></form></div></section></>;
 
   const pageContent={home:Home(),services:Services(),pricing:Pricing(),portfolio:Portfolio(),process:Process(),about:About(),contact:Contact()};
   return <>{Header()}{pageContent[page]||Home()}{Footer()}</>;
