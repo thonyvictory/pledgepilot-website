@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import {
   ArrowRight, ArrowUpRight, Target, Megaphone, Users, BarChart3, Search,
   Mail, Menu, X, Rocket, CheckCircle2, Globe2, Lightbulb, Clapperboard,
-MonitorSmartphone, FileText, ChevronDown,
+  MonitorSmartphone, FileText, ChevronDown,
   MessageCircle, Send, ExternalLink, ShieldCheck, Layers, PlayCircle
 } from "lucide-react";
 import "./styles.css";
@@ -71,18 +71,22 @@ function App(){
     fetch("/campaigns.json").then(r=>r.json()).then(setCampaigns).catch(()=>{});
     return ()=>window.removeEventListener("hashchange",sync);
   },[]);
+
   useEffect(()=>{window.scrollTo({top:0,behavior:"instant"});setMenuOpen(false)},[page]);
 
   const go=(p)=>{window.location.hash=p};
+
   const filtered=useMemo(()=>{
     const q=query.trim().toLowerCase();
     if(!q) return campaigns;
-    const aliases={game:["game","games","gaming","tabletop","video game","video games","board game","board games","gaming hardware"],
+    const aliases={
+      game:["game","games","gaming","tabletop","video game","video games","board game","board games","gaming hardware"],
       tech:["technology","tech","gadgets","electronics","hardware","software"],
       art:["art","illustration","design","creative","comics","graphic novel"],
       fashion:["fashion","apparel","clothing","wearables"],
       film:["film","movie","cinema","video"],
-      music:["music","audio","instrument"]};
+      music:["music","audio","instrument"]
+    };
     const normalized=(q==="games"||q==="gaming")?"game":q;
     const terms=aliases[normalized]||[q];
     return campaigns.filter(c=>{
@@ -90,6 +94,7 @@ function App(){
       return terms.some(term=>category.includes(term) || term.includes(category));
     });
   },[campaigns,query]);
+
   const money=(value,currency)=>new Intl.NumberFormat("en-US",{style:"currency",currency,maximumFractionDigits:0}).format(value);
 
   const submitContact = async (e) => {
@@ -119,6 +124,8 @@ function App(){
       setContactLoading(false);
     }
   };
+
+  // Newsletter subscription: sends the email address to the Cloudflare Pages Function.
   const submitNewsletter = async (e) => {
     e.preventDefault();
     setNewsletterStatus("");
@@ -130,6 +137,7 @@ function App(){
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: newsletter })
       });
+
       const result = await response.json();
 
       if (!response.ok || !result.success) {
@@ -164,19 +172,35 @@ function App(){
 
   const PageIntro=({eyebrow,title,desc})=><section className="page-intro"><div className="container"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{desc}</p></div></section>;
 
-  const Home=()=> <><section className="hero"><div className="hero-glow"></div><div className="container hero-grid"><div className="hero-copy"><span className="eyebrow"><span className="eyebrow-dot"></span> INTERNATIONAL CROWDFUNDING MARKETING</span><h1>Turn your next big idea into a <em>campaign worth discovering.</em></h1><p>Strategic crowdfunding marketing for creators, entrepreneurs and businesses preparing to launch or looking to grow an active campaign.</p><div className="hero-actions"><a className="btn btn-primary" href="#contact">Discuss your project <ArrowRight size={17}/></a><a className="btn btn-secondary" href="#portfolio">Explore our work</a></div><div className="hero-proof"><span><CheckCircle2/> Kickstarter & Indiegogo specialists</span><span><Globe2/> Working with creators worldwide</span></div></div><div className="hero-visual hero-showcase"><div className="showcase-kicker"><span className="live-dot"></span> IDEAS IN MOTION <span>01 / 03</span></div><div className="showcase-stack">{campaigns.slice(0,3).map((c,i)=><a className={`showcase-card showcase-card-${i+1}`} href={c.url} target="_blank" rel="noreferrer" key={c.url}><img src={c.coverImage} alt={`${c.title} campaign cover`}/><span>{c.category}</span></a>)}</div><div className="showcase-caption"><b>From concept to community.</b><span>Strategic visibility for ideas worth backing.</span></div><div className="floating-note note-top"><Target/><div><b>Audience-first</b><small>Research-led planning</small></div></div><div className="floating-note note-bottom"><BarChart3/><div><b>Campaign-focused</b><small>Measure. Learn. Improve.</small></div></div></div></div><div className="hero-bottom container"><span>PLATFORMS WE SPECIALIZE IN</span><strong>Kickstarter</strong><i></i><strong>Indiegogo</strong></div></section>
-  <section className="section platforms"><div className="container platform-inner"><div><span className="eyebrow">OUR PLATFORM FOCUS</span><h2>Focused expertise.<br/><em>Clear campaign direction.</em></h2></div><p>We work with creators preparing to launch or looking to strengthen an active crowdfunding campaign on Kickstarter and Indiegogo.</p><div className="platform-logos"><span className="platform-k">K</span><b>Kickstarter</b><span className="platform-divider"></span><span className="platform-i">i</span><b>Indiegogo</b></div></div></section>
-  <section className="section about-preview"><div className="container two-col"><div className="section-visual blue-panel"><div className="panel-orbit"></div><div className="panel-mark">PP</div><span>IDEAS NEED AN AUDIENCE</span><strong>Make your next move<br/>a strategic one.</strong></div><div className="section-copy"><span className="eyebrow">ABOUT PLEDGEPILOT</span><h2>Good ideas deserve a <em>clear path to discovery.</em></h2><p>PledgePilot is an international crowdfunding marketing agency supporting creators, entrepreneurs and businesses with the strategy, preparation and promotion needed to reach relevant audiences.</p><p>From early planning to live campaign support, we bring research, communication and coordinated marketing activity together around your project goals.</p><a className="text-link" href="#about">Get to know PledgePilot <ArrowRight size={16}/></a></div></div></section>
-  <section className="section services-preview"><div className="container"><div className="section-heading"><div><span className="eyebrow">WHAT WE DO</span><h2>Support for every stage<br/>of your <em>crowdfunding journey.</em></h2></div><a className="text-link" href="#services">Explore all services <ArrowRight size={16}/></a></div><div className="service-grid">{services.slice(0,6).map((s,i)=><article className="service-card" key={s.title}><div className="service-icon"><s.icon/></div><span className="service-number">0{i+1}</span><h3>{s.title}</h3><p>{s.desc}</p><a href="#services">Explore service <ArrowUpRight size={15}/></a></article>)}</div></div></section>
-  <section className="section pricing-preview"><div className="container pricing-box"><div><span className="eyebrow">FLEXIBLE CAMPAIGN SUPPORT</span><h2>Pricing built around <em>your project.</em></h2><p>Every campaign has different needs. We assess your stage, objectives, scope and required support before recommending a service structure and budget.</p><a className="btn btn-primary" href="#pricing">How our pricing works <ArrowRight size={16}/></a></div><div className="pricing-points"><span><CheckCircle2/> Tailored service proposals</span><span><CheckCircle2/> Clear scope of work</span><span><CheckCircle2/> Service fees separated from ad spend</span><span><CheckCircle2/> No one-size-fits-all packages</span></div></div></section>
-  <section className="section portfolio-preview featured-home"><div className="container"><div className="section-heading"><div><span className="eyebrow">SELECTED CAMPAIGNS</span><h2>Ideas worth <em>discovering.</em></h2><p>A rotating selection of featured crowdfunding projects. Select any campaign to view its original page.</p></div><a className="text-link" href="#portfolio">Explore full portfolio <ArrowRight size={16}/></a></div><div className="featured-track-window"><div className="featured-track">{[...campaigns.slice(0,15),...campaigns.slice(0,15)].map((c,i)=><a className="featured-campaign" href={c.url} target="_blank" rel="noreferrer" key={`${c.url}-${i}`} aria-label={`View ${c.title} campaign`}><div className="featured-campaign-image"><img src={c.coverImage} alt={`${c.title} campaign cover`} loading="lazy"/><span>{c.platform}</span><b><ArrowUpRight size={18}/></b></div><div className="featured-campaign-meta"><small>{c.category}</small><strong>{c.title}</strong></div></a>)}</div></div><div className="featured-home-bottom"><a className="btn btn-light" href="#portfolio">Explore full portfolio <ArrowRight size={16}/></a></div></div></section>
-  <section className="section process-preview"><div className="container"><div className="section-heading"><div><span className="eyebrow">OUR PROCESS</span><h2>A clear process from <em>first conversation to follow-through.</em></h2></div><a className="text-link" href="#process">See our process <ArrowRight size={16}/></a></div><div className="process-line">{steps.slice(0,4).map(s=><div className="process-mini" key={s[0]}><span>{s[0]}</span><h3>{s[1]}</h3><p>{s[2]}</p></div>)}</div></div></section>
-  <section className="section why"><div className="container"><div className="section-heading centered"><span className="eyebrow">WHY PLEDGEPILOT</span><h2>Thoughtful strategy.<br/><em>Purposeful execution.</em></h2><p>We focus on the foundations that help a campaign connect with the people most likely to care about it.</p></div><div className="why-grid"><div><Search/><h3>Research-led planning</h3><p>Decisions start with your project, audience and competitive landscape.</p></div><div><Users/><h3>Relevant audience development</h3><p>Build meaningful connections with people who may care about your idea.</p></div><div><Layers/><h3>Integrated marketing support</h3><p>Coordinate the right mix of content, outreach, email and promotion.</p></div><div><ShieldCheck/><h3>Clear communication</h3><p>Understand the scope, activities and costs before work begins.</p></div></div></div></section>
-  <section className="section faq-preview"><div className="container faq-layout"><div><span className="eyebrow">QUESTIONS, ANSWERED</span><h2>Before you <em>get started.</em></h2><p>Some quick answers to common questions about working with PledgePilot.</p><a className="text-link" href="#contact">Have another question? Contact us <ArrowRight size={16}/></a></div><div className="faq-list">{faqs.slice(0,4).map((f,i)=><div className="faq-item" key={f[0]}><button onClick={()=>setFaqOpen(faqOpen===i?-1:i)}><span>{f[0]}</span><ChevronDown className={faqOpen===i?"rotated":""}/></button>{faqOpen===i&&<p>{f[1]}</p>}</div>)}</div></div></section>
-  <section className="final-cta"><div className="container final-cta-inner"><div><span className="eyebrow">YOUR NEXT STEP STARTS HERE</span><h2>Ready to move your<br/><em>project forward?</em></h2><p>Tell us what you're building, where you are in the crowdfunding journey and what kind of support you need.</p></div><a className="btn btn-white" href="#contact">Start a conversation <ArrowRight size={17}/></a></div></section>
-  {Newsletter()}</>;
+  const Newsletter=()=> <section className="newsletter"><div className="container newsletter-inner">
+    <div>
+      <span className="eyebrow">THE PLEDGEPILOT BRIEF</span>
+      <h2>Stay ahead of your <em>next campaign.</em></h2>
+      <p>Get practical crowdfunding insights, campaign strategies and marketing updates delivered to your inbox.</p>
+    </div>
+    <form onSubmit={submitNewsletter}>
+      <label className="sr-only" htmlFor="newsletter-email">Email address</label>
+      <input
+        id="newsletter-email"
+        type="email"
+        required
+        placeholder="Your email address"
+        value={newsletter}
+        onChange={e=>setNewsletter(e.target.value)}
+        disabled={newsletterLoading}
+      />
+      <button className="btn btn-primary" type="submit" disabled={newsletterLoading}>
+        {newsletterLoading ? "Subscribing..." : "Subscribe"}
+        {!newsletterLoading && <ArrowRight size={16}/>}
+      </button>
 
-  const Newsletter=()=> <section className="newsletter"><div className="container newsletter-inner"><div><span className="eyebrow">THE PLEDGEPILOT BRIEF</span><h2>Stay ahead of your <em>next campaign.</em></h2><p>Get practical crowdfunding insights, campaign strategies and marketing updates delivered to your inbox.</p></div><form onSubmit={submitNewsletter}><label className="sr-only" htmlFor="newsletter-email">Email address</label><input id="newsletter-email" type="email" required placeholder="Your email address" value={newsletter} onChange={e=>setNewsletter(e.target.value)} disabled={newsletterLoading}/><button className="btn btn-primary" type="submit" disabled={newsletterLoading}>{newsletterLoading ? "Subscribing..." : "Subscribe"} {!newsletterLoading && <ArrowRight size={16}/>}</button>{newsletterStatus === "success" && <small role="status" style={{display:"block",color:"#15803d",marginTop:"10px"}}>You're subscribed. Please check your inbox for a welcome email.</small>}{newsletterStatus === "already" && <small role="status" style={{display:"block",color:"#1764df",marginTop:"10px"}}>This email is already subscribed to PledgePilot updates.</small>}{newsletterStatus === "error" && <small role="alert" style={{display:"block",color:"#b91c1c",marginTop:"10px"}}>We couldn't complete your subscription. Please check your email address and try again.</small>}<small>By subscribing, you agree to receive email updates. You can unsubscribe from future newsletters at any time.</small></form></div></section>;
+      {newsletterStatus === "success" && <small role="status" style={{display:"block",color:"#15803d",marginTop:"10px"}}>You're subscribed. Please check your inbox for a welcome email.</small>}
+      {newsletterStatus === "already" && <small role="status" style={{display:"block",color:"#1764df",marginTop:"10px"}}>This email is already subscribed to PledgePilot updates.</small>}
+      {newsletterStatus === "error" && <small role="alert" style={{display:"block",color:"#b91c1c",marginTop:"10px"}}>We couldn't complete your subscription. Please check your email address and try again.</small>}
+
+      <small>By subscribing, you agree to receive email updates. You can unsubscribe from future newsletters at any time.</small>
+    </form>
+  </div></section>;
 
   const Services=()=> <><PageIntro eyebrow="OUR SERVICES" title={<>Practical support for your <em>crowdfunding goals.</em></>} desc="From early-stage planning to campaign promotion and grant proposal development, explore the services PledgePilot can provide."/><section className="section"><div className="container service-detail-grid">{services.map((s,i)=><article className="service-detail" key={s.title}><div className="service-icon"><s.icon/></div><span className="service-number">SERVICE 0{i+1}</span><h2>{s.title}</h2><p>{s.desc}</p><ul>{s.items.map(x=><li key={x}><CheckCircle2/>{x}</li>)}</ul><a className="text-link" href="#contact">Discuss this service <ArrowRight size={15}/></a></article>)}</div></section><div className="simple-cta"><div className="container"><h2>Not sure which service you need?</h2><p>Tell us about your project and we'll discuss a suitable next step.</p><a className="btn btn-primary" href="#contact">Talk to our team <ArrowRight size={16}/></a></div></div></>;
 
