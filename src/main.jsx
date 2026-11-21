@@ -117,10 +117,33 @@ function App(){
       setContactLoading(false);
     }
   };
-  const submitNewsletter=(e)=>{
-    e.preventDefault();
-    window.location.href=`mailto:contact@pledgepilot.online?subject=${encodeURIComponent("PledgePilot newsletter subscription request")}&body=${encodeURIComponent("Please add this email to the PledgePilot updates list: "+newsletter)}`;
-  };
+  const submitNewsletter = async (e) => {
+  e.preventDefault();
+  setNewsletterStatus("");
+  setNewsletterLoading(true);
+
+  try {
+    const response = await fetch("/api/newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: newsletter })
+    });
+
+    const result = await response.json();
+
+    if (!response.ok || !result.success) {
+      throw new Error(result.message || "Unable to complete your subscription.");
+    }
+
+    setNewsletterStatus(result.alreadySubscribed ? "already" : "success");
+    setNewsletter("");
+  } catch (error) {
+    console.error("Newsletter subscription failed:", error);
+    setNewsletterStatus("error");
+  } finally {
+    setNewsletterLoading(false);
+  }
+};
 
   const Header=()=> <header className="header"><div className="container nav-wrap">
     <a className="brand" href="#home" onClick={()=>setPage("home")} aria-label="PledgePilot home"><img src="/images/pledgepilot-logo.png" alt=""/><span className="brand-copy"><strong><span>Pledge</span><span>Pilot</span></strong><small>ELEVATE YOUR SUCCESS</small></span></a>
