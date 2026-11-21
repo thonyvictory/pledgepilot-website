@@ -60,8 +60,6 @@ function App(){
   const [selectedImage,setSelectedImage] = useState(null);
   const [form,setForm] = useState({name:"",email:"",link:"",stage:"",message:""});
   const [newsletter,setNewsletter] = useState("");
-  const [newsletterStatus,setNewsletterStatus] = useState("");
-  const [newsletterLoading,setNewsletterLoading] = useState(false);
   const [contactStatus,setContactStatus] = useState("");
   const [contactLoading,setContactLoading] = useState(false);
 
@@ -119,31 +117,9 @@ function App(){
       setContactLoading(false);
     }
   };
-  const submitNewsletter = async (e) => {
+  const submitNewsletter=(e)=>{
     e.preventDefault();
-    setNewsletterStatus("");
-    setNewsletterLoading(true);
-
-    try {
-      const response = await fetch("/api/newsletter", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: newsletter })
-      });
-      const result = await response.json();
-
-      if (!response.ok || !result.success) {
-        throw new Error(result.message || "Unable to complete your subscription.");
-      }
-
-      setNewsletterStatus(result.alreadySubscribed ? "already" : "success");
-      setNewsletter("");
-    } catch (error) {
-      console.error("Newsletter subscription failed:", error);
-      setNewsletterStatus("error");
-    } finally {
-      setNewsletterLoading(false);
-    }
+    window.location.href=`mailto:contact@pledgepilot.online?subject=${encodeURIComponent("PledgePilot newsletter subscription request")}&body=${encodeURIComponent("Please add this email to the PledgePilot updates list: "+newsletter)}`;
   };
 
   const Header=()=> <header className="header"><div className="container nav-wrap">
@@ -176,7 +152,7 @@ function App(){
   <section className="final-cta"><div className="container final-cta-inner"><div><span className="eyebrow">YOUR NEXT STEP STARTS HERE</span><h2>Ready to move your<br/><em>project forward?</em></h2><p>Tell us what you're building, where you are in the crowdfunding journey and what kind of support you need.</p></div><a className="btn btn-white" href="#contact">Start a conversation <ArrowRight size={17}/></a></div></section>
   {Newsletter()}</>;
 
-  const Newsletter=()=> <section className="newsletter"><div className="container newsletter-inner"><div><span className="eyebrow">THE PLEDGEPILOT BRIEF</span><h2>Stay ahead of your <em>next campaign.</em></h2><p>Get practical crowdfunding insights, campaign strategies and marketing updates delivered to your inbox.</p></div><form onSubmit={submitNewsletter}><label className="sr-only" htmlFor="newsletter-email">Email address</label><input id="newsletter-email" type="email" required placeholder="Your email address" value={newsletter} onChange={e=>setNewsletter(e.target.value)} disabled={newsletterLoading}/><button className="btn btn-primary" type="submit" disabled={newsletterLoading}>{newsletterLoading ? "Subscribing..." : "Subscribe"} {!newsletterLoading && <ArrowRight size={16}/>}</button>{newsletterStatus === "success" && <small role="status" style={{display:"block",color:"#15803d",marginTop:"10px"}}>You're subscribed. Please check your inbox for a welcome email.</small>}{newsletterStatus === "already" && <small role="status" style={{display:"block",color:"#1764df",marginTop:"10px"}}>This email is already subscribed to PledgePilot updates.</small>}{newsletterStatus === "error" && <small role="alert" style={{display:"block",color:"#b91c1c",marginTop:"10px"}}>We couldn't complete your subscription. Please check your email address and try again.</small>}<small>By subscribing, you agree to receive email updates. You can unsubscribe from future newsletters at any time.</small></form></div></section>;
+  const Newsletter=()=> <section className="newsletter"><div className="container newsletter-inner"><div><span className="eyebrow">THE PLEDGEPILOT BRIEF</span><h2>Stay ahead of your <em>next campaign.</em></h2><p>Get practical crowdfunding insights, campaign strategies and marketing updates delivered to your inbox.</p></div><form onSubmit={submitNewsletter}><label className="sr-only" htmlFor="newsletter-email">Email address</label><input id="newsletter-email" type="email" required placeholder="Your email address" value={newsletter} onChange={e=>setNewsletter(e.target.value)}/><button className="btn btn-primary">Subscribe <ArrowRight size={16}/></button><small>By subscribing, you agree to receive email updates. You can unsubscribe at any time.</small></form></div></section>;
 
   const Services=()=> <><PageIntro eyebrow="OUR SERVICES" title={<>Practical support for your <em>crowdfunding goals.</em></>} desc="From early-stage planning to campaign promotion and grant proposal development, explore the services PledgePilot can provide."/><section className="section"><div className="container service-detail-grid">{services.map((s,i)=><article className="service-detail" key={s.title}><div className="service-icon"><s.icon/></div><span className="service-number">SERVICE 0{i+1}</span><h2>{s.title}</h2><p>{s.desc}</p><ul>{s.items.map(x=><li key={x}><CheckCircle2/>{x}</li>)}</ul><a className="text-link" href="#contact">Discuss this service <ArrowRight size={15}/></a></article>)}</div></section><div className="simple-cta"><div className="container"><h2>Not sure which service you need?</h2><p>Tell us about your project and we'll discuss a suitable next step.</p><a className="btn btn-primary" href="#contact">Talk to our team <ArrowRight size={16}/></a></div></div></>;
 
