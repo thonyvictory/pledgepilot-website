@@ -60,6 +60,8 @@ function App(){
   const [selectedImage,setSelectedImage] = useState(null);
   const [form,setForm] = useState({name:"",email:"",link:"",stage:"",message:""});
   const [newsletter,setNewsletter] = useState("");
+  const [newsletterStatus,setNewsletterStatus] = useState("");
+const [newsletterLoading,setNewsletterLoading] = useState(false);
   const [contactStatus,setContactStatus] = useState("");
   const [contactLoading,setContactLoading] = useState(false);
 
