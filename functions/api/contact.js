@@ -13,21 +13,16 @@ const signature = `
     style="width:100%;max-width:620px;margin-top:26px;border-collapse:collapse;font-family:Arial,Helvetica,sans-serif;">
     <tr>
       <td style="border-top:1px solid #dbe3ef;padding-top:18px;">
-        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+          style="border-collapse:collapse;width:100%;">
           <tr>
-            <td width="165" valign="middle" style="width:165px;padding:8px 18px 8px 0;border-right:2px solid #1764df;">
+            <td width="165" valign="middle"
+              style="width:165px;padding:8px 18px 8px 0;border-right:2px solid #1764df;">
               <a href="https://pledgepilot.online" target="_blank" style="text-decoration:none;">
                 <img src="https://pledgepilot.online/images/pledgepilot-logo.png"
-                  alt="PledgePilot — pledgepilot.online"
-                  width="145"
+                  alt="PledgePilot logo" width="145"
                   style="display:block;width:145px;max-width:145px;height:auto;border:0;outline:none;text-decoration:none;">
               </a>
-              <div style="padding-top:7px;">
-                <a href="https://pledgepilot.online" target="_blank"
-                  style="color:#1764df;font-size:12px;font-weight:bold;text-decoration:none;">
-                  pledgepilot.online
-                </a>
-              </div>
             </td>
 
             <td valign="middle" style="padding:6px 0 6px 20px;">
@@ -47,7 +42,7 @@ const signature = `
                 style="margin-top:14px;border-collapse:collapse;">
                 <tr>
                   <td style="padding:0 10px 0 0;">
-                    <a href="https://www.instagram.com/pledgepilot/" target="_blank" aria-label="Instagram">
+                    <a href="https://www.instagram.com/pledgepilot/" target="_blank">
                       <img src="https://cdn.simpleicons.org/instagram/E4405F"
                         width="27" height="27" alt="Instagram"
                         style="display:block;width:27px;height:27px;border:0;">
@@ -55,7 +50,7 @@ const signature = `
                   </td>
 
                   <td style="border-left:1px solid #aab6ca;padding:0 10px;">
-                    <a href="https://web.facebook.com/profile.php?id=61594922333588" target="_blank" aria-label="Facebook">
+                    <a href="https://web.facebook.com/profile.php?id=61594922333588" target="_blank">
                       <img src="https://cdn.simpleicons.org/facebook/1877F2"
                         width="27" height="27" alt="Facebook"
                         style="display:block;width:27px;height:27px;border:0;">
@@ -63,7 +58,7 @@ const signature = `
                   </td>
 
                   <td style="border-left:1px solid #aab6ca;padding:0 10px;">
-                    <a href="https://www.tiktok.com/@pledgepilot" target="_blank" aria-label="TikTok">
+                    <a href="https://www.tiktok.com/@pledgepilot" target="_blank">
                       <img src="https://cdn.simpleicons.org/tiktok/111111"
                         width="27" height="27" alt="TikTok"
                         style="display:block;width:27px;height:27px;border:0;">
@@ -71,7 +66,7 @@ const signature = `
                   </td>
 
                   <td style="border-left:1px solid #aab6ca;padding:0 10px;">
-                    <a href="https://x.com/PledgePilot" target="_blank" aria-label="X">
+                    <a href="https://x.com/PledgePilot" target="_blank">
                       <img src="https://cdn.simpleicons.org/x/111111"
                         width="27" height="27" alt="X"
                         style="display:block;width:27px;height:27px;border:0;">
@@ -79,7 +74,7 @@ const signature = `
                   </td>
 
                   <td style="border-left:1px solid #aab6ca;padding:0 0 0 10px;">
-                    <a href="https://wa.me/15709271401" target="_blank" aria-label="WhatsApp">
+                    <a href="https://wa.me/15709271401" target="_blank">
                       <img src="https://cdn.simpleicons.org/whatsapp/25D366"
                         width="27" height="27" alt="WhatsApp"
                         style="display:block;width:27px;height:27px;border:0;">
@@ -88,9 +83,10 @@ const signature = `
                 </tr>
               </table>
 
-              <div style="margin-top:14px;padding:9px 14px;background:#0758d8;color:#ffffff;font-size:14px;line-height:1.4;font-weight:700;letter-spacing:2px;text-align:center;">
+              <a href="https://pledgepilot.online" target="_blank"
+                style="display:block;margin-top:14px;padding:9px 14px;background:#0758d8;color:#ffffff;font-size:14px;line-height:1.4;font-weight:700;letter-spacing:2px;text-align:center;text-decoration:none;">
                 ELEVATE YOUR SUCCESS
-              </div>
+              </a>
             </td>
           </tr>
         </table>
@@ -109,7 +105,6 @@ export async function onRequestPost({ request, env }) {
     }
 
     const data = await request.json();
-
     const name = String(data.name || "").trim();
     const email = String(data.email || "").trim();
     const link = String(data.link || "").trim();
@@ -190,7 +185,6 @@ export async function onRequestPost({ request, env }) {
       return result;
     };
 
-    // Send enquiry notification to PledgePilot.
     await sendEmail({
       from: "PledgePilot <contact@pledgepilot.online>",
       to: ["contact@pledgepilot.online"],
@@ -219,7 +213,6 @@ Requirements:
 ${message}`
     });
 
-    // Send confirmation email to the creator.
     let confirmationSent = false;
 
     try {
@@ -229,9 +222,7 @@ ${message}`
         subject: "We've received your PledgePilot enquiry",
         html: `
           <div style="font-family:Arial,sans-serif;color:#334155;line-height:1.7;">
-            <h2 style="color:#142d50;">
-              Thank you for contacting PledgePilot, ${safeName}.
-            </h2>
+            <h2 style="color:#142d50;">Thank you for contacting PledgePilot, ${safeName}.</h2>
             <p>We've successfully received your project enquiry.</p>
             <p>Our team will review the information you've shared and get back to you regarding the next steps.</p>
             <p>Thank you for considering PledgePilot for your crowdfunding journey.</p>
@@ -242,8 +233,7 @@ ${message}`
 
 Thank you for contacting PledgePilot. We've received your project enquiry and our team will review it and get back to you regarding the next steps.
 
-PledgePilot Team
-https://pledgepilot.online`
+PledgePilot Team`
       });
 
       confirmationSent = true;
@@ -261,10 +251,7 @@ https://pledgepilot.online`
     console.error("Contact form error:", error.message);
 
     return Response.json(
-      {
-        success: false,
-        message: "We couldn't process your enquiry. Please try again."
-      },
+      { success: false, message: "We couldn't process your enquiry. Please try again." },
       { status: 502 }
     );
   }
