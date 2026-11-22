@@ -165,6 +165,88 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
 
   const PageIntro=({eyebrow,title,desc})=><section className="page-intro"><div className="container"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{desc}</p></div></section>;
 
+  const testimonialGroups = [
+    [
+      {name:"Daniel Carter",project:"EcoFlow Bottle Campaign",image:"https://i.pravatar.cc/120?img=12",quote:"PledgePilot helped us build real momentum before launch. Their strategy, communication, and support were outstanding."},
+      {name:"Emily Zhang",project:"LumaDesk Project",image:"https://i.pravatar.cc/120?img=47",quote:"The team was professional and highly responsive. Our campaign gained great visibility and exceeded our funding goal."},
+      {name:"Mark Reynolds",project:"TrailMate Gear",image:"https://i.pravatar.cc/120?img=68",quote:"From strategy to execution, PledgePilot delivered exactly what we needed. A reliable and knowledgeable partner for our campaign."},
+      {name:"Sophia Turner",project:"BreezeSmart Fan",image:"https://i.pravatar.cc/120?img=44",quote:"We really appreciated their clear guidance and practical marketing support. It made a big difference to our campaign performance."},
+      {name:"James Porter",project:"NeoLight Lamp",image:"https://i.pravatar.cc/120?img=13",quote:"PledgePilot's marketing approach helped us reach the right audience and build early traction for a strong launch."}
+    ],
+    [
+      {name:"Olivia Bennett",project:"KindleTote Campaign",image:"https://i.pravatar.cc/120?img=5",quote:"A fantastic team to work with! They understood our goals, provided a solid plan, and kept us updated throughout the entire campaign."},
+      {name:"Ryan Mitchell",project:"VeloRide Bike",image:"https://i.pravatar.cc/120?img=7",quote:"PledgePilot brought valuable insights and marketing expertise that helped us reach a much larger audience than we expected."},
+      {name:"Isabella Hayes",project:"PureBrew Coffee Maker",image:"https://i.pravatar.cc/120?img=49",quote:"Their support was proactive, transparent, and results-driven. We're very happy with how our campaign turned out."},
+      {name:"Ethan Brooks",project:"SoundNest Speaker",image:"https://i.pravatar.cc/120?img=15",quote:"The team at PledgePilot made the entire process smooth and effective. Their marketing approach helped us build strong early traction."},
+      {name:"Chloe Adams",project:"FlexStand Pro",image:"https://i.pravatar.cc/120?img=45",quote:"Great communication, clear strategy, and consistent support. I would highly recommend PledgePilot to any creator."}
+    ],
+    [
+      {name:"Jonathan Reed",project:"HomeBot Cleaner",image:"https://i.pravatar.cc/120?img=60",quote:"Professional, experienced, and genuinely supportive. PledgePilot gave our campaign the visibility and structure it needed to succeed."},
+      {name:"Natalie Fisher",project:"GlowRest Pillow",image:"https://i.pravatar.cc/120?img=32",quote:"They provided clear direction, practical strategies, and consistent support. Our campaign reached more backers than we initially projected."},
+      {name:"Henry Collins",project:"AeroFit Watch",image:"https://i.pravatar.cc/120?img=14",quote:"Working with PledgePilot was a great decision. Their marketing expertise and attention to detail helped us achieve a strong result."},
+      {name:"Grace Lewis",project:"PlantJoy Indoor Garden",image:"https://i.pravatar.cc/120?img=48",quote:"The team was easy to work with, highly organized, and focused on results. We're very pleased with the outcome of our campaign."},
+      {name:"Lucas Morgan",project:"ChargeHub Pro",image:"https://i.pravatar.cc/120?img=11",quote:"PledgePilot gave us the right strategy and promotion to reach a global audience. The entire experience was smooth and professional."}
+    ]
+  ];
+
+  const Testimonials=()=> <section className="section pp-testimonials" aria-labelledby="pp-testimonials-title">
+    <style>{`
+      .pp-testimonials{position:relative;overflow:hidden;background:linear-gradient(135deg,#f7f9ff 0%,#edf3ff 52%,#f8faff 100%);isolation:isolate}
+      .pp-testimonials:before,.pp-testimonials:after{content:"";position:absolute;z-index:-1;border:1px solid rgba(69,111,218,.08);border-radius:50%;pointer-events:none}
+      .pp-testimonials:before{width:620px;height:620px;top:-390px;left:-220px;box-shadow:0 0 0 34px rgba(69,111,218,.025),0 0 0 72px rgba(69,111,218,.018)}
+      .pp-testimonials:after{width:700px;height:700px;right:-400px;bottom:-500px;box-shadow:0 0 0 38px rgba(69,111,218,.025),0 0 0 80px rgba(69,111,218,.018)}
+      .pp-testimonials .pp-testimonials-heading{text-align:center;max-width:850px;margin:0 auto 42px}
+      .pp-testimonials .eyebrow{color:#3769df}
+      .pp-testimonials h2{color:#102344;margin:10px 0 12px;font-size:clamp(2.2rem,4.2vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
+      .pp-testimonials h2 em{color:#6f91f4;font-style:normal}
+      .pp-testimonials-heading>p{color:#64748b;font-size:1.06rem;margin:0}
+      .pp-testimonials-note{display:inline-flex;align-items:center;gap:7px;margin-top:15px;padding:7px 11px;border:1px solid rgba(55,105,223,.16);border-radius:999px;background:rgba(255,255,255,.7);color:#64748b;font-size:.72rem}
+      .pp-testimonials-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch;position:relative}
+      .pp-testimonial-lane{height:720px;overflow:hidden;position:relative;mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 92%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 92%,transparent 100%)}
+      .pp-testimonial-lane:nth-child(2){filter:drop-shadow(0 12px 22px rgba(50,100,210,.08))}
+      .pp-testimonial-track{display:flex;flex-direction:column;gap:16px;will-change:transform;animation:pp-testimonial-down 48s linear infinite}
+      .pp-testimonial-lane:nth-child(2) .pp-testimonial-track{animation-name:pp-testimonial-up;animation-duration:54s}
+      .pp-testimonial-lane:hover .pp-testimonial-track{animation-play-state:paused}
+      .pp-testimonial-card{background:rgba(255,255,255,.94);border:1px solid rgba(215,226,247,.9);border-radius:20px;padding:20px 19px 21px;box-shadow:0 10px 28px rgba(23,55,110,.075);min-height:190px}
+      .pp-testimonial-person{display:flex;align-items:center;gap:13px}
+      .pp-testimonial-person img{width:58px;height:58px;flex:0 0 58px;object-fit:cover;border-radius:50%;border:3px solid #edf3ff;background:#e6edfb}
+      .pp-testimonial-person h3{font-size:1rem;line-height:1.25;color:#102344;margin:0 0 3px;font-weight:750}
+      .pp-testimonial-person span{display:block;color:#64748b;font-size:.82rem;line-height:1.35}
+      .pp-testimonial-stars{display:flex;gap:2px;color:#f3ad19;margin:11px 0 9px;font-size:1.08rem;letter-spacing:1px}
+      .pp-testimonial-quote{display:flex;gap:9px;align-items:flex-start;color:#34445f;font-size:.91rem;line-height:1.55;margin:0}
+      .pp-testimonial-quote-mark{font-size:2rem;line-height:.9;color:#6d91ee;font-weight:800;flex:0 0 auto}
+      .pp-testimonial-arrow{position:absolute;z-index:2;top:44%;width:38px;height:58px;border:0;border-radius:22px;background:linear-gradient(180deg,#4778f4,#2c5dd8);color:#fff;display:grid;place-items:center;box-shadow:0 8px 20px rgba(48,96,220,.24);pointer-events:none}
+      .pp-testimonial-arrow.left{left:-18px}.pp-testimonial-arrow.right{right:-18px}.pp-testimonial-arrow.middle{top:3px;left:calc(66.666% - 43px);width:34px;height:52px}
+      @keyframes pp-testimonial-down{from{transform:translateY(-50%)}to{transform:translateY(0)}}
+      @keyframes pp-testimonial-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+      @media(prefers-reduced-motion:reduce){.pp-testimonial-track{animation:none!important}}
+      @media(max-width:900px){.pp-testimonials-grid{gap:14px}.pp-testimonial-card{padding:16px 14px}.pp-testimonial-person{gap:9px}.pp-testimonial-person img{width:48px;height:48px;flex-basis:48px}.pp-testimonial-person h3{font-size:.9rem}.pp-testimonial-person span{font-size:.74rem}.pp-testimonial-quote{font-size:.82rem}.pp-testimonial-lane{height:660px}}
+      @media(max-width:640px){.pp-testimonials .pp-testimonials-heading{margin-bottom:28px}.pp-testimonials-heading>p{font-size:.92rem}.pp-testimonials-grid{grid-template-columns:repeat(3,minmax(260px,82vw));overflow-x:auto;overflow-y:hidden;padding:0 2px 14px;scroll-snap-type:x mandatory}.pp-testimonial-lane{height:650px;scroll-snap-align:center}.pp-testimonial-card{padding:18px;min-height:180px}.pp-testimonial-person h3{font-size:1rem}.pp-testimonial-person span{font-size:.82rem}.pp-testimonial-quote{font-size:.9rem}.pp-testimonial-arrow{display:none}}
+    `}</style>
+    <div className="container">
+      <div className="pp-testimonials-heading">
+        <span className="eyebrow">CLIENT TESTIMONIALS</span>
+        <h2 id="pp-testimonials-title">What Our Clients <em>Say</em></h2>
+        <p>Real experiences. Genuine feedback. Trusted partnerships.</p>
+        <span className="pp-testimonials-note">Illustrative examples for layout preview — not verified client reviews.</span>
+      </div>
+      <div className="pp-testimonials-grid">
+        <span className="pp-testimonial-arrow left" aria-hidden="true">↓</span>
+        <span className="pp-testimonial-arrow middle" aria-hidden="true">↑</span>
+        {testimonialGroups.map((group,index)=><div className="pp-testimonial-lane" key={index} aria-label={`Testimonial column ${index+1}`}>
+          <div className="pp-testimonial-track">
+            {[...group,...group].map((item,i)=><article className="pp-testimonial-card" key={`${item.name}-${i}`}>
+              <div className="pp-testimonial-person"><img src={item.image} alt={`${item.name} profile`} loading="lazy"/><div><h3>{item.name}</h3><span>{item.project}</span></div></div>
+              <div className="pp-testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p className="pp-testimonial-quote"><span className="pp-testimonial-quote-mark" aria-hidden="true">“</span><span>{item.quote}</span></p>
+            </article>)}
+          </div>
+        </div>)}
+        <span className="pp-testimonial-arrow right" aria-hidden="true">↓</span>
+      </div>
+    </div>
+  </section>;
+
   const Home=()=> <><section className="hero"><div className="hero-glow"></div><div className="container hero-grid"><div className="hero-copy"><span className="eyebrow"><span className="eyebrow-dot"></span> INTERNATIONAL CROWDFUNDING MARKETING</span><h1>Turn your next big idea into a <em>campaign worth discovering.</em></h1><p>Strategic crowdfunding marketing for creators, entrepreneurs and businesses preparing to launch or looking to grow an active campaign.</p><div className="hero-actions"><a className="btn btn-primary" href="#contact">Discuss your project <ArrowRight size={17}/></a><a className="btn btn-secondary" href="#portfolio">Explore our work</a></div><div className="hero-proof"><span><CheckCircle2/> Kickstarter & Indiegogo specialists</span><span><Globe2/> Working with creators worldwide</span></div></div><div className="hero-visual hero-showcase"><div className="showcase-kicker"><span className="live-dot"></span> IDEAS IN MOTION <span>01 / 03</span></div><div className="showcase-stack">{campaigns.slice(0,3).map((c,i)=><a className={`showcase-card showcase-card-${i+1}`} href={c.url} target="_blank" rel="noreferrer" key={c.url}><img src={c.coverImage} alt={`${c.title} campaign cover`}/><span>{c.category}</span></a>)}</div><div className="showcase-caption"><b>From concept to community.</b><span>Strategic visibility for ideas worth backing.</span></div><div className="floating-note note-top"><Target/><div><b>Audience-first</b><small>Research-led planning</small></div></div><div className="floating-note note-bottom"><BarChart3/><div><b>Campaign-focused</b><small>Measure. Learn. Improve.</small></div></div></div></div><div className="hero-bottom container"><span>PLATFORMS WE SPECIALIZE IN</span><strong>Kickstarter</strong><i></i><strong>Indiegogo</strong></div></section>
   <section className="section platforms"><div className="container platform-inner"><div><span className="eyebrow">OUR PLATFORM FOCUS</span><h2>Focused expertise.<br/><em>Clear campaign direction.</em></h2></div><p>We work with creators preparing to launch or looking to strengthen an active crowdfunding campaign on Kickstarter and Indiegogo.</p><div className="platform-logos"><span className="platform-k">K</span><b>Kickstarter</b><span className="platform-divider"></span><span className="platform-i">i</span><b>Indiegogo</b></div></div></section>
   <section className="section about-preview"><div className="container two-col"><div className="section-visual blue-panel"><div className="panel-orbit"></div><div className="panel-mark">PP</div><span>IDEAS NEED AN AUDIENCE</span><strong>Make your next move<br/>a strategic one.</strong></div><div className="section-copy"><span className="eyebrow">ABOUT PLEDGEPILOT</span><h2>Good ideas deserve a <em>clear path to discovery.</em></h2><p>PledgePilot is an international crowdfunding marketing agency supporting creators, entrepreneurs and businesses with the strategy, preparation and promotion needed to reach relevant audiences.</p><p>From early planning to live campaign support, we bring research, communication and coordinated marketing activity together around your project goals.</p><a className="text-link" href="#about">Get to know PledgePilot <ArrowRight size={16}/></a></div></div></section>
@@ -173,6 +255,7 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
   <section className="section portfolio-preview featured-home"><div className="container"><div className="section-heading"><div><span className="eyebrow">SELECTED CAMPAIGNS</span><h2>Ideas worth <em>discovering.</em></h2><p>A rotating selection of featured crowdfunding projects. Select any campaign to view its original page.</p></div><a className="text-link" href="#portfolio">Explore full portfolio <ArrowRight size={16}/></a></div><div className="featured-track-window"><div className="featured-track">{[...campaigns.slice(0,15),...campaigns.slice(0,15)].map((c,i)=><a className="featured-campaign" href={c.url} target="_blank" rel="noreferrer" key={`${c.url}-${i}`} aria-label={`View ${c.title} campaign`}><div className="featured-campaign-image"><img src={c.coverImage} alt={`${c.title} campaign cover`} loading="lazy"/><span>{c.platform}</span><b><ArrowUpRight size={18}/></b></div><div className="featured-campaign-meta"><small>{c.category}</small><strong>{c.title}</strong></div></a>)}</div></div><div className="featured-home-bottom"><a className="btn btn-light" href="#portfolio">Explore full portfolio <ArrowRight size={16}/></a></div></div></section>
   <section className="section process-preview"><div className="container"><div className="section-heading"><div><span className="eyebrow">OUR PROCESS</span><h2>A clear process from <em>first conversation to follow-through.</em></h2></div><a className="text-link" href="#process">See our process <ArrowRight size={16}/></a></div><div className="process-line">{steps.slice(0,4).map(s=><div className="process-mini" key={s[0]}><span>{s[0]}</span><h3>{s[1]}</h3><p>{s[2]}</p></div>)}</div></div></section>
   <section className="section why"><div className="container"><div className="section-heading centered"><span className="eyebrow">WHY PLEDGEPILOT</span><h2>Thoughtful strategy.<br/><em>Purposeful execution.</em></h2><p>We focus on the foundations that help a campaign connect with the people most likely to care about it.</p></div><div className="why-grid"><div><Search/><h3>Research-led planning</h3><p>Decisions start with your project, audience and competitive landscape.</p></div><div><Users/><h3>Relevant audience development</h3><p>Build meaningful connections with people who may care about your idea.</p></div><div><Layers/><h3>Integrated marketing support</h3><p>Coordinate the right mix of content, outreach, email and promotion.</p></div><div><ShieldCheck/><h3>Clear communication</h3><p>Understand the scope, activities and costs before work begins.</p></div></div></div></section>
+  {Testimonials()}
   <section className="section faq-preview"><div className="container faq-layout"><div><span className="eyebrow">QUESTIONS, ANSWERED</span><h2>Before you <em>get started.</em></h2><p>Some quick answers to common questions about working with PledgePilot.</p><a className="text-link" href="#contact">Have another question? Contact us <ArrowRight size={16}/></a></div><div className="faq-list">{faqs.slice(0,4).map((f,i)=><div className="faq-item" key={f[0]}><button onClick={()=>setFaqOpen(faqOpen===i?-1:i)}><span>{f[0]}</span><ChevronDown className={faqOpen===i?"rotated":""}/></button>{faqOpen===i&&<p>{f[1]}</p>}</div>)}</div></div></section>
   <section className="final-cta"><div className="container final-cta-inner"><div><span className="eyebrow">YOUR NEXT STEP STARTS HERE</span><h2>Ready to move your<br/><em>project forward?</em></h2><p>Tell us what you're building, where you are in the crowdfunding journey and what kind of support you need.</p></div><a className="btn btn-white" href="#contact">Start a conversation <ArrowRight size={17}/></a></div></section>
   {Newsletter()}</>;
