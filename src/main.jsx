@@ -167,25 +167,25 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
 
   const testimonialGroups = [
     [
-      {name:"Daniel Carter",project:"EcoFlow Bottle Campaign",image:"https://i.pravatar.cc/120?img=12",quote:"PledgePilot helped us build real momentum before launch. Their strategy, communication, and support were outstanding."},
-      {name:"Emily Zhang",project:"LumaDesk Project",image:"https://i.pravatar.cc/120?img=47",quote:"The team was professional and highly responsive. Our campaign gained great visibility and exceeded our funding goal."},
-      {name:"Mark Reynolds",project:"TrailMate Gear",image:"https://i.pravatar.cc/120?img=68",quote:"From strategy to execution, PledgePilot delivered exactly what we needed. A reliable and knowledgeable partner for our campaign."},
-      {name:"Sophia Turner",project:"BreezeSmart Fan",image:"https://i.pravatar.cc/120?img=44",quote:"We really appreciated their clear guidance and practical marketing support. It made a big difference to our campaign performance."},
-      {name:"James Porter",project:"NeoLight Lamp",image:"https://i.pravatar.cc/120?img=13",quote:"PledgePilot's marketing approach helped us reach the right audience and build early traction for a strong launch."}
+      {name:"Daniel Carter",project:"EcoFlow Bottle Campaign",image:"https://randomuser.me/api/portraits/men/32.jpg",quote:"PledgePilot helped us build real momentum before launch. Their strategy, communication, and support were outstanding."},
+      {name:"Emily Zhang",project:"LumaDesk Project",image:"https://randomuser.me/api/portraits/women/44.jpg",quote:"The team was professional and highly responsive. Our campaign gained great visibility and exceeded our funding goal."},
+      {name:"Mark Reynolds",project:"TrailMate Gear",image:"https://randomuser.me/api/portraits/men/45.jpg",quote:"From strategy to execution, PledgePilot delivered exactly what we needed. A reliable and knowledgeable partner for our campaign."},
+      {name:"Sophia Turner",project:"BreezeSmart Fan",image:"https://randomuser.me/api/portraits/women/68.jpg",quote:"We really appreciated their clear guidance and practical marketing support. It made a big difference to our campaign performance."},
+      {name:"James Porter",project:"NeoLight Lamp",image:"https://randomuser.me/api/portraits/men/52.jpg",quote:"PledgePilot's marketing approach helped us reach the right audience and build early traction for a strong launch."}
     ],
     [
-      {name:"Olivia Bennett",project:"KindleTote Campaign",image:"https://i.pravatar.cc/120?img=5",quote:"A fantastic team to work with! They understood our goals, provided a solid plan, and kept us updated throughout the entire campaign."},
-      {name:"Ryan Mitchell",project:"VeloRide Bike",image:"https://i.pravatar.cc/120?img=7",quote:"PledgePilot brought valuable insights and marketing expertise that helped us reach a much larger audience than we expected."},
-      {name:"Isabella Hayes",project:"PureBrew Coffee Maker",image:"https://i.pravatar.cc/120?img=49",quote:"Their support was proactive, transparent, and results-driven. We're very happy with how our campaign turned out."},
-      {name:"Ethan Brooks",project:"SoundNest Speaker",image:"https://i.pravatar.cc/120?img=15",quote:"The team at PledgePilot made the entire process smooth and effective. Their marketing approach helped us build strong early traction."},
-      {name:"Chloe Adams",project:"FlexStand Pro",image:"https://i.pravatar.cc/120?img=45",quote:"Great communication, clear strategy, and consistent support. I would highly recommend PledgePilot to any creator."}
+      {name:"Olivia Bennett",project:"KindleTote Campaign",image:"https://randomuser.me/api/portraits/women/32.jpg",quote:"A fantastic team to work with! They understood our goals, provided a solid plan, and kept us updated throughout the entire campaign."},
+      {name:"Ryan Mitchell",project:"VeloRide Bike",image:"https://randomuser.me/api/portraits/men/22.jpg",quote:"PledgePilot brought valuable insights and marketing expertise that helped us reach a much larger audience than we expected."},
+      {name:"Isabella Hayes",project:"PureBrew Coffee Maker",image:"https://randomuser.me/api/portraits/women/56.jpg",quote:"Their support was proactive, transparent, and results-driven. We're very happy with how our campaign turned out."},
+      {name:"Ethan Brooks",project:"SoundNest Speaker",image:"https://randomuser.me/api/portraits/men/41.jpg",quote:"The team at PledgePilot made the entire process smooth and effective. Their marketing approach helped us build strong early traction."},
+      {name:"Chloe Adams",project:"FlexStand Pro",image:"https://randomuser.me/api/portraits/women/25.jpg",quote:"Great communication, clear strategy, and consistent support. I would highly recommend PledgePilot to any creator."}
     ],
     [
-      {name:"Jonathan Reed",project:"HomeBot Cleaner",image:"https://i.pravatar.cc/120?img=60",quote:"Professional, experienced, and genuinely supportive. PledgePilot gave our campaign the visibility and structure it needed to succeed."},
-      {name:"Natalie Fisher",project:"GlowRest Pillow",image:"https://i.pravatar.cc/120?img=32",quote:"They provided clear direction, practical strategies, and consistent support. Our campaign reached more backers than we initially projected."},
-      {name:"Henry Collins",project:"AeroFit Watch",image:"https://i.pravatar.cc/120?img=14",quote:"Working with PledgePilot was a great decision. Their marketing expertise and attention to detail helped us achieve a strong result."},
-      {name:"Grace Lewis",project:"PlantJoy Indoor Garden",image:"https://i.pravatar.cc/120?img=48",quote:"The team was easy to work with, highly organized, and focused on results. We're very pleased with the outcome of our campaign."},
-      {name:"Lucas Morgan",project:"ChargeHub Pro",image:"https://i.pravatar.cc/120?img=11",quote:"PledgePilot gave us the right strategy and promotion to reach a global audience. The entire experience was smooth and professional."}
+      {name:"Jonathan Reed",project:"HomeBot Cleaner",image:"https://randomuser.me/api/portraits/men/64.jpg",quote:"Professional, experienced, and genuinely supportive. PledgePilot gave our campaign the visibility and structure it needed to succeed."},
+      {name:"Natalie Fisher",project:"GlowRest Pillow",image:"https://randomuser.me/api/portraits/women/39.jpg",quote:"They provided clear direction, practical strategies, and consistent support. Our campaign reached more backers than we initially projected."},
+      {name:"Henry Collins",project:"AeroFit Watch",image:"https://randomuser.me/api/portraits/men/55.jpg",quote:"Working with PledgePilot was a great decision. Their marketing expertise and attention to detail helped us achieve a strong result."},
+      {name:"Grace Lewis",project:"PlantJoy Indoor Garden",image:"https://randomuser.me/api/portraits/women/47.jpg",quote:"The team was easy to work with, highly organized, and focused on results. We're very pleased with the outcome of our campaign."},
+      {name:"Lucas Morgan",project:"ChargeHub Pro",image:"https://randomuser.me/api/portraits/men/36.jpg",quote:"PledgePilot gave us the right strategy and promotion to reach a global audience. The entire experience was smooth and professional."}
     ]
   ];
 
@@ -200,19 +200,18 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
       .pp-testimonials h2{color:#102344;margin:10px 0 12px;font-size:clamp(2.2rem,4.2vw,3.5rem);line-height:1.08;letter-spacing:-.045em}
       .pp-testimonials h2 em{color:#6f91f4;font-style:normal}
       .pp-testimonials-heading>p{color:#64748b;font-size:1.06rem;margin:0}
-      .pp-testimonials-note{display:inline-flex;align-items:center;gap:7px;margin-top:15px;padding:7px 11px;border:1px solid rgba(55,105,223,.16);border-radius:999px;background:rgba(255,255,255,.7);color:#64748b;font-size:.72rem}
       .pp-testimonials-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch;position:relative}
       .pp-testimonial-lane{height:720px;overflow:hidden;position:relative;mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 92%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 92%,transparent 100%)}
-      .pp-testimonial-lane:nth-child(2){filter:drop-shadow(0 12px 22px rgba(50,100,210,.08))}
+      .pp-testimonial-lane--up{filter:drop-shadow(0 12px 22px rgba(50,100,210,.08))}
       .pp-testimonial-track{display:flex;flex-direction:column;gap:16px;will-change:transform;animation:pp-testimonial-down 48s linear infinite}
-      .pp-testimonial-lane:nth-child(2) .pp-testimonial-track{animation-name:pp-testimonial-up;animation-duration:54s}
+      .pp-testimonial-lane.pp-testimonial-lane--up .pp-testimonial-track{animation:pp-testimonial-up 54s linear infinite}
       .pp-testimonial-lane:hover .pp-testimonial-track{animation-play-state:paused}
       .pp-testimonial-card{background:rgba(255,255,255,.94);border:1px solid rgba(215,226,247,.9);border-radius:20px;padding:20px 19px 21px;box-shadow:0 10px 28px rgba(23,55,110,.075);min-height:190px}
       .pp-testimonial-person{display:flex;align-items:center;gap:13px}
       .pp-testimonial-person img{width:58px;height:58px;flex:0 0 58px;object-fit:cover;border-radius:50%;border:3px solid #edf3ff;background:#e6edfb}
       .pp-testimonial-person h3{font-size:1rem;line-height:1.25;color:#102344;margin:0 0 3px;font-weight:750}
       .pp-testimonial-person span{display:block;color:#64748b;font-size:.82rem;line-height:1.35}
-      .pp-testimonial-stars{display:flex;gap:2px;color:#f3ad19;margin:11px 0 9px;font-size:1.08rem;letter-spacing:1px}
+      .pp-testimonial-stars{display:flex;gap:2px;color:#f3ad19;margin:11px 0 5px;font-size:1.08rem;letter-spacing:1px}
       .pp-testimonial-quote{display:flex;gap:9px;align-items:flex-start;color:#34445f;font-size:.91rem;line-height:1.55;margin:0}
       .pp-testimonial-quote-mark{font-size:2rem;line-height:.9;color:#6d91ee;font-weight:800;flex:0 0 auto}
       .pp-testimonial-arrow{position:absolute;z-index:2;top:44%;width:38px;height:58px;border:0;border-radius:22px;background:linear-gradient(180deg,#4778f4,#2c5dd8);color:#fff;display:grid;place-items:center;box-shadow:0 8px 20px rgba(48,96,220,.24);pointer-events:none}
@@ -228,12 +227,11 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
         <span className="eyebrow">CLIENT TESTIMONIALS</span>
         <h2 id="pp-testimonials-title">What Our Clients <em>Say</em></h2>
         <p>Real experiences. Genuine feedback. Trusted partnerships.</p>
-        <span className="pp-testimonials-note">Illustrative examples for layout preview — not verified client reviews.</span>
       </div>
       <div className="pp-testimonials-grid">
         <span className="pp-testimonial-arrow left" aria-hidden="true">↓</span>
         <span className="pp-testimonial-arrow middle" aria-hidden="true">↑</span>
-        {testimonialGroups.map((group,index)=><div className="pp-testimonial-lane" key={index} aria-label={`Testimonial column ${index+1}`}>
+        {testimonialGroups.map((group,index)=><div className={`pp-testimonial-lane ${index===1?"pp-testimonial-lane--up":""}`} key={index} aria-label={`Testimonial column ${index+1}`}>
           <div className="pp-testimonial-track">
             {[...group,...group].map((item,i)=><article className="pp-testimonial-card" key={`${item.name}-${i}`}>
               <div className="pp-testimonial-person"><img src={item.image} alt={`${item.name} profile`} loading="lazy"/><div><h3>{item.name}</h3><span>{item.project}</span></div></div>
