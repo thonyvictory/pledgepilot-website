@@ -1,2121 +1,136 @@
-[
-  {
-    "title": "Keymitt Smart Lock: Give your door lock a new life!",
-    "url": "https://www.kickstarter.com/projects/204411570/keymitt-smart-lock-give-your-door-lock-a-new-life",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Gadgets",
-    "coverImage": "/images/campaigns/001-keymitt-smart-lock-give-your-door-lock-a-new-life.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 174348.0,
-    "backers": 1078,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "Paradise Desk - Everything you've ever wanted in a desk!",
-    "url": "https://www.kickstarter.com/projects/155163930/paradise-desk-everything-youve-ever-wanted-in-a-de",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/002-paradise-desk-everything-youve-ever-wanted-in-a-desk.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 196927.0,
-    "backers": 787,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "SAIL: The Thinnest and Most Affoard Electric Skateboard",
-    "url": "https://www.kickstarter.com/projects/838820925/sail-an-electric-skateboard-for-everyone-299",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Gadgets",
-    "coverImage": "/images/campaigns/003-sail-the-thinnest-and-most-affoard-electric-skateboard.png",
-    "fundingGoal": 100000.0,
-    "amountRaised": 1537878.0,
-    "backers": 640,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "IR-Blue - Thermal Imaging Smartphone Accessory",
-    "url": "https://www.kickstarter.com/projects/andyrawson/ir-blue-thermal-imaging-smartphone-accessory",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/004-irblue-thermal-imaging-smartphone-accessory.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 195805.0,
-    "backers": 1290,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "MoErgo Go60 Keyboard: Ergonomics Evolved. Built to Go.",
-    "url": "https://www.kickstarter.com/projects/moergo/moergo-go60-keyboard-ergonomics-evolved-built-to-go",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/005-moergo-go60-keyboard-ergonomics-evolved-built-to-go.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 337847.0,
-    "backers": 498,
-    "fundingCurrency": "NZD",
-    "raisedCurrency": "NZD"
-  },
-  {
-    "title": "World's first wirelessly charged earbuds",
-    "url": "https://www.kickstarter.com/projects/1012683372/truu-join-the-wireless-revolution",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/006-worlds-first-wirelessly-charged-earbuds.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 172228.0,
-    "backers": 1068,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "BeanBon - Everything you ask for a home coffee roaster",
-    "url": "https://www.kickstarter.com/projects/264337465/beanbon-everything-you-ask-for-a-home-coffee-roaster",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Technology",
-    "coverImage": "/images/campaigns/007-beanbon-everything-you-ask-for-a-home-coffee-roaster.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 195534.0,
-    "backers": 246,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "BI V2.0 - A self-replicating, high precision 3D Printer",
-    "url": "https://www.kickstarter.com/projects/1784037324/bi-v20-a-self-replicating-high-precision-3d-printe",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "3D Printing",
-    "coverImage": "/images/campaigns/008-bi-v2.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 210830.0,
-    "backers": 273,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Powercore - Cut through solid metal with EDM",
-    "url": "https://www.kickstarter.com/projects/rackrobotics/powercore-cut-through-solid-metal-with-edm",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "3D Printing",
-    "coverImage": "/images/campaigns/009-powercore-cut-through-solid-metal-with-edm.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 192083.0,
-    "backers": 509,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Dazz 3D | The Most Advanced LCD SLA 3D Printer",
-    "url": "https://www.kickstarter.com/projects/dazz3dprinter/dazz-3d-the-most-advanced-lcd-sla-3d-printer",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "3D Printing",
-    "coverImage": "/images/campaigns/010-dazz-3d-the-most-advanced-lcd-sla-3d-printer.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 192065.0,
-    "backers": 215,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Devslopes Anyone Can Learn To Code",
-    "url": "https://www.kickstarter.com/projects/912791163/devslopes-anyone-can-learn-to-code",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apps",
-    "coverImage": "/images/campaigns/011-devslopes-anyone-can-learn-to-code.png",
-    "fundingGoal": 39500.0,
-    "amountRaised": 192056.0,
-    "backers": 2149,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Euhomy: The Electric Cooler With A Fully Automated Ice Maker",
-    "url": "https://www.kickstarter.com/projects/2113441938/euhomy-the-electric-cooler-with-fully-automated-ice-maker",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/012-euhomy-the-electric-cooler-with-a-fully-automated-ice-maker.png",
-    "fundingGoal": 40000.0,
-    "amountRaised": 1499058.0,
-    "backers": 467,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "Golf Pad LINK - automatic golf game tracking DONE RIGHT",
-    "url": "https://www.kickstarter.com/projects/golfpad/golf-pad-link-automatic-golf-game-tracking-done-ri",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Technology",
-    "coverImage": "/images/campaigns/013-golf-pad-link-automatic-golf-game-tracking-done-right.png",
-    "fundingGoal": 60000.0,
-    "amountRaised": 191594.0,
-    "backers": 1294,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "TwoEyes VR 360 camera",
-    "url": "https://www.kickstarter.com/projects/244975696/twoeyes-vr-360-camera",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Camera Equipment",
-    "coverImage": "/images/campaigns/014-twoeyes-vr-360-camera.png",
-    "fundingGoal": 40000.0,
-    "amountRaised": 191487.0,
-    "backers": 699,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Melomind : the ultimate relaxation headset",
-    "url": "https://www.kickstarter.com/projects/865795124/melomind-the-ultimate-relaxation-headset",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Technology",
-    "coverImage": "/images/campaigns/015-melomind-the-ultimate-relaxation-headset.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 169420.0,
-    "backers": 858,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "Big I The First Personalized Family Robot",
-    "url": "https://www.kickstarter.com/projects/nxrobo/big-i-the-first-personalized-family-robot",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Robots",
-    "coverImage": "/images/campaigns/016-big-i-the-first-personalized-family-robot.png",
-    "fundingGoal": 100000.0,
-    "amountRaised": 190767.0,
-    "backers": 176,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "ALL Controller | Universal & Fully Customizable",
-    "url": "https://www.kickstarter.com/projects/1811189679/all-controller-universal-and-fully-customizable",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/017-all-controller-universal-fully-customizable.png",
-    "fundingGoal": 75000.0,
-    "amountRaised": 232026.0,
-    "backers": 1734,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "World's First Bacteria Killing Robot",
-    "url": "https://www.kickstarter.com/projects/cleansebot/worlds-first-bacteria-killing-robot",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Wearables",
-    "coverImage": "/images/campaigns/018-worlds-first-bacteria-killing-robot.png",
-    "fundingGoal": 3000.0,
-    "amountRaised": 1187861.0,
-    "backers": 10474,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Movemotorize Blinds And Shades",
-    "url": "https://www.kickstarter.com/projects/789589988/movemotorize-blinds-and-shades",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Technology",
-    "coverImage": "/images/campaigns/019-movemotorize-blinds-and-shades.png",
-    "fundingGoal": 340000.0,
-    "amountRaised": 1609835.0,
-    "backers": 1591,
-    "fundingCurrency": "SEK",
-    "raisedCurrency": "SEK"
-  },
-  {
-    "title": "James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH",
-    "url": "https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/020-james-sa.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 897653.0,
-    "backers": 8173,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Witches of Oz #1-4: THE WICCA COVEN! Mature Sapphic Fantasy",
-    "url": "https://www.kickstarter.com/projects/comicuno/woz4",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/021-witches-of-oz-14-the-wicca-coven-mature-sapphic-fantasy.png",
-    "fundingGoal": 22000.0,
-    "amountRaised": 55954.0,
-    "backers": 1285,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Submachine | Comic Book",
-    "url": "https://www.kickstarter.com/projects/mateuszskutnik/submachine-comic-book",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/022-submachine-comic-book.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 82490.0,
-    "backers": 939,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "SUGAR POP: The Fly on Windscreen pt. 2",
-    "url": "https://www.kickstarter.com/projects/danmendoza/sugar-pop-the-fly-on-windscreen-pt-2",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/023-sugar-pop-the-fly-on-windscreen-pt.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 68866.0,
-    "backers": 833,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Fathom Timeline Omnibus: Volume 1",
-    "url": "https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/024-fathom-timeline-omnibus-volume-1.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 189258.0,
-    "backers": 1179,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "FREQ: Volume #1",
-    "url": "https://www.kickstarter.com/projects/freqmanga/freq-volume-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/025-freq-volume-1.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 35937.0,
-    "backers": 583,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Mandawhorian",
-    "url": "https://www.kickstarter.com/projects/divinity--comics/the-mandawhorian",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/026-the-mandawhorian.png",
-    "fundingGoal": 500.0,
-    "amountRaised": 10564.0,
-    "backers": 260,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Devil's Due Presents: Mercy Sparx - 25th Anniversary Special",
-    "url": "https://www.kickstarter.com/projects/joshcblaylock/devils-due-presents-mercy-sparx",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/027-devils-due-presents-mercy-sparx-25th-anniversary-special.png",
-    "fundingGoal": 5555.0,
-    "amountRaised": 12549.0,
-    "backers": 223,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Keres: Blood & Shadow One-Shot",
-    "url": "https://www.kickstarter.com/projects/zenescopecomics/keres-blood-and-shadow-one-",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/028-keres-blood-shadow-oneshot.png",
-    "fundingGoal": 4900.0,
-    "amountRaised": 50884.0,
-    "backers": 554,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "BURLAP VOL. 1 GRAPHIC NOVEL",
-    "url": "https://www.kickstarter.com/projects/burlapcomics/burlap-vol-1-graphic-novel",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/029-burlap-vol.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 5391.0,
-    "backers": 104,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Renote Snap: World’s 1st Metal Notebook Wallet",
-    "url": "https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/030-renote-snap-worlds-1st-metal-notebook-wallet.png",
-    "fundingGoal": 1127.0,
-    "amountRaised": 68261.0,
-    "backers": 849,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "KEI PACK | The Future of (EU) Hand Luggage",
-    "url": "https://www.kickstarter.com/projects/931698574/kei-carry-on-the-future-of-eu-hand-luggage",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/031-kei-pack-the-future-of-eu-hand-luggage.png",
-    "fundingGoal": 2500.0,
-    "amountRaised": 10404.0,
-    "backers": 90,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "Cinomadist Motion: A Backpack for Work, Transit, and Travel",
-    "url": "https://www.kickstarter.com/projects/cinomadistbackpack/cinomadist-motion-a-backpack-for-work-transit-and-travel",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/032-cinomadist-motion-a-backpack-for-work-transit-and-travel.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 827686.0,
-    "backers": 663,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "PartyDrop: 3-in-1 Backpack That Transforms & Travels With You",
-    "url": "https://www.kickstarter.com/projects/294064084/partydro-3-in-1-backpack-that-transforms-and-travels-with-you",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/033-partydrop-3in1-backpack-that-transforms-travels-with-you.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 132418.0,
-    "backers": 213,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "TEMO – The Gravity-Activated Focus Timer for Deep Work",
-    "url": "https://www.kickstarter.com/projects/1022636539/temo-the-gravity-activated-focus-timer-for-deep-work",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/034-temo-the-gravityactivated-focus-timer-for-deep-work.png",
-    "fundingGoal": 4000.0,
-    "amountRaised": 58662.0,
-    "backers": 135,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "The Magnetic 12-in-1 Phone Stand & Titanium EDC Tool",
-    "url": "https://www.kickstarter.com/projects/vulyx/the-magnetic-12-in-1-phone-stand-and-titanium-edc-tool",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/035-the-magnetic-12in1-phone-stand-titanium-edc-tool.png",
-    "fundingGoal": 2000.0,
-    "amountRaised": 13451.0,
-    "backers": 159,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "TDM. Neo | Headphones That Transform into a Speaker",
-    "url": "https://www.kickstarter.com/projects/1973963736/tdm-neo-headphones-that-transform-into-a-speaker",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/036-tdm.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 154113.0,
-    "backers": 766,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Artella | The Modular Carry System",
-    "url": "https://www.kickstarter.com/projects/artsyna/artella-a-modular-carry-system-for-work-gym-and-travel",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/037-artella-the-modular-carry-system.png",
-    "fundingGoal": 5120.0,
-    "amountRaised": 12893.0,
-    "backers": 36,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "Mighty Morphin Power Rangers Combinable Dragonzord",
-    "url": "https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Toys",
-    "coverImage": "/images/campaigns/038-mighty-morphin-power-rangers-combinable-dragonzord.png",
-    "fundingGoal": 400000.0,
-    "amountRaised": 782530.0,
-    "backers": 7883,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "D1 Milano x Peter Tarka: The Impossible Watch",
-    "url": "https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/039-d1-milano-x-peter-tarka-the-impossible-watch.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 415041.0,
-    "backers": 943,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "noRecognition : AI Adversarial Clothing",
-    "url": "https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/040-norecognition-ai-adversarial-clothing.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 204288.0,
-    "backers": 1213,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Unbound Performance Quarter Zip & Overshirt",
-    "url": "https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/041-the-unbound-performance-quarter-zip-overshirt.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 85484.0,
-    "backers": 420,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "LAY YOUR BONES - An Ode to Natural Fibre",
-    "url": "https://www.kickstarter.com/projects/layyourbones/lay-your-bones-an-ode-to-natural-fibre",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/042-lay-your-bones-an-ode-to-natural-fibre.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 31000.0,
-    "backers": 46,
-    "fundingCurrency": "AUD",
-    "raisedCurrency": "AUD"
-  },
-  {
-    "title": "Ember Bison: Unexpectedly Soft. Deeply Durable Apparel",
-    "url": "https://www.kickstarter.com/projects/1925399328/ember-bison-unexpectedly-soft-deeply-durable-apparel",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/043-ember-bison-unexpectedly-soft.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 5217.0,
-    "backers": 12,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Revenant Transform",
-    "url": "https://www.kickstarter.com/projects/bisonwares/revenant-transform",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/044-revenant-transform.png",
-    "fundingGoal": 100000.0,
-    "amountRaised": 220777.0,
-    "backers": 821,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Transform Sherpa Jean Jacket",
-    "url": "https://www.kickstarter.com/projects/transformjeanjacket/transform-sherpa-jean-jacket",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Apparel",
-    "coverImage": "/images/campaigns/045-transform-sherpa-jean-jacket.png",
-    "fundingGoal": 16000.0,
-    "amountRaised": 225017.0,
-    "backers": 1496,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The GAMEBAG - A Nostalgic, Fun ITA Satchel Bag",
-    "url": "https://www.kickstarter.com/projects/dokidokidemon/the-gamebag-a-nostalgic-fun-satchel-bag",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Accessories",
-    "coverImage": "/images/campaigns/046-the-gamebag-a-nostalgic-fun-ita-satchel-bag.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 310744.0,
-    "backers": 3666,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "The Monolith Collection",
-    "url": "https://www.kickstarter.com/projects/yaniir/the-monolith-collection",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Jewelry",
-    "coverImage": "/images/campaigns/047-the-monolith-collection.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 354591.0,
-    "backers": 2047,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "SOTTOS: All-Terrain Luggage",
-    "url": "https://www.kickstarter.com/projects/sottos/sottos-all-terrain-luggage",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fashion",
-    "coverImage": "/images/campaigns/048-sottos-allterrain-luggage.png",
-    "fundingGoal": 75000.0,
-    "amountRaised": 240680.0,
-    "backers": 643,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Mesolite: Modular Bag System",
-    "url": "https://www.kickstarter.com/projects/mesolite/mesolite-modular-bag-system",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fashion",
-    "coverImage": "/images/campaigns/049-mesolite-modular-bag-system.png",
-    "fundingGoal": 125000.0,
-    "amountRaised": 137028.0,
-    "backers": 115,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "RICKY Film Pay-It-Forward $250,000 Impact Campaign",
-    "url": "https://www.kickstarter.com/projects/rickythemovie/ricky-film-2026",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Movie Theaters",
-    "coverImage": "/images/campaigns/050-ricky-film-payitforward-250000-impact-campaign.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 60712.0,
-    "backers": 120,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Small Town Monsters 2026: UFOs, Dogman, and Bigfoot",
-    "url": "https://www.kickstarter.com/projects/minervamonster/small-town-monsters-2026-ufos-dogman-and-bigfoot",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Film & Video",
-    "coverImage": "/images/campaigns/051-small-town-monsters-2026-ufos-dogman-and-bigfoot.png",
-    "fundingGoal": 70000.0,
-    "amountRaised": 106787.0,
-    "backers": 485,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Last Picture Shop - Feature Documentary",
-    "url": "https://www.kickstarter.com/projects/tlps/the-last-picture-shop-feature-documentary",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Documentary",
-    "coverImage": "/images/campaigns/052-the-last-picture-shop-feature-documentary.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 56162.0,
-    "backers": 779,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "HALFRICAN",
-    "url": "https://www.kickstarter.com/projects/halfricanshow/halfrican",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Film & Video",
-    "coverImage": "/images/campaigns/053-halfrican.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 39153.0,
-    "backers": 257,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Talitha | A Miraculous Resurrection Feature Film",
-    "url": "https://www.kickstarter.com/projects/refocuscreative/talitha-a-miraculous-resurrection-story",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drama",
-    "coverImage": "/images/campaigns/054-talitha-a-miraculous-resurrection-feature-film.png",
-    "fundingGoal": 27000.0,
-    "amountRaised": 30000.0,
-    "backers": 132,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Commodore 64: The Birth of a Cultural Icon",
-    "url": "https://www.kickstarter.com/projects/graciousfilms/the-commodore-64-the-birth-of-a-cultural-icon",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Documentary",
-    "coverImage": "/images/campaigns/055-commodore-64-the-birth-of-a-cultural-icon.png",
-    "fundingGoal": 55000.0,
-    "amountRaised": 135940.0,
-    "backers": 2631,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "BOWHUNTER",
-    "url": "https://www.kickstarter.com/projects/raroa/bowhunter",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Documentary",
-    "coverImage": "/images/campaigns/056-bowhunter.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 5171.0,
-    "backers": 28,
-    "fundingCurrency": "NZD",
-    "raisedCurrency": "NZD"
-  },
-  {
-    "title": "Wait In The Wings Buried Treasure",
-    "url": "https://www.kickstarter.com/projects/waitinthewings/wait-in-the-wings-buried-treasure",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Documentary",
-    "coverImage": "/images/campaigns/057-wait-in-the-wings-buried-treasure.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 40339.0,
-    "backers": 282,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Madoff Suit Project",
-    "url": "https://www.kickstarter.com/projects/vdpod/the-madoff-suit-project",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Documentary",
-    "coverImage": "/images/campaigns/058-the-madoff-suit-project.png",
-    "fundingGoal": 1000.0,
-    "amountRaised": 2673.0,
-    "backers": 34,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "TURMOIL IN THE TOYBOX - Feature Film Finishing Funds",
-    "url": "https://www.kickstarter.com/projects/1418036943/turmoil-in-the-toybox-feature-film-finishing-funds",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Horror",
-    "coverImage": "/images/campaigns/059-turmoil-in-the-toybox-feature-film-finishing-funds.png",
-    "fundingGoal": 75000.0,
-    "amountRaised": 108476.0,
-    "backers": 964,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Tex Murphy: Killing Moon Rising",
-    "url": "https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Games",
-    "coverImage": "/images/campaigns/060-tex-murphy-killing-moon-rising.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 462628.0,
-    "backers": 4270,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign",
-    "url": "https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/061-rolling-deep-eureka-dice-adventure-roguelike-campaign.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 724451.0,
-    "backers": 6244,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "PDX: The Airport Game",
-    "url": "https://www.kickstarter.com/projects/waterworks/pdx",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/062-pdx-the-airport-game.png",
-    "fundingGoal": 22000.0,
-    "amountRaised": 447095.0,
-    "backers": 4670,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Slay the Spire: The Board Game - Downfall",
-    "url": "https://www.kickstarter.com/projects/contentiongames/sts-downfall",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/063-slay-the-spire-the-board-game-downfall.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 7624941.0,
-    "backers": 38134,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Runeway - A Self Discovery Roleplaying Game",
-    "url": "https://www.kickstarter.com/projects/manaprojectstudio/runeway",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/064-runeway-a-self-discovery-roleplaying-game.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 77000.0,
-    "backers": 1032,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Cats of New Orleans",
-    "url": "https://www.kickstarter.com/projects/283509132/the-cats-of-new-orleans",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/065-the-cats-of-new-orleans.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 152465.0,
-    "backers": 936,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Unearth: Complete Edition",
-    "url": "https://www.kickstarter.com/projects/brotherwise/unearth-10th-anniversary-edition",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/066-unearth-complete-edition.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 115372.0,
-    "backers": 2005,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "One More Page | A Cozy Card Game of Productivity & Pet Chaos",
-    "url": "https://www.kickstarter.com/projects/worldofmithrasa/one-more-page-a-cozy-card-game-of-productivity-and-pet-chaos",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/067-one-more-page-a-cozy-card-game-of-productivity-pet-chaos.png",
-    "fundingGoal": 3108.0,
-    "amountRaised": 101876.0,
-    "backers": 1370,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Logic & Lore 2nd Edition & Expansion",
-    "url": "https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/068-logic-lore-2nd-edition-expansion.png",
-    "fundingGoal": 9000.0,
-    "amountRaised": 107421.0,
-    "backers": 1960,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Dream Concept Studio Zombie Lab 1 18 Hacks Figure",
-    "url": "https://www.kickstarter.com/projects/lockertoys/dream-concept-studio-zombie-lab-1-18-hacks-figure",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/069-dream-concept-studio-zombie-lab-1-18-hacks-figure.png",
-    "fundingGoal": 625000.0,
-    "amountRaised": 1563138.0,
-    "backers": 533,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "Esington Glass The Ultimate Productivity Timer",
-    "url": "https://www.kickstarter.com/projects/esington/esington-glass-the-ultimate-productivity-timer",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/070-esington-glass-the-ultimate-productivity-timer.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 196560.0,
-    "backers": 2272,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Crypteks Usbtm Encrypted And Lockable Usb Solution",
-    "url": "https://www.kickstarter.com/projects/crypteks/crypteks-usbtm-encrypted-and-lockable-usb-solution",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/071-crypteks-usbtm-encrypted-and-lockable-usb-solution.png",
-    "fundingGoal": 12000.0,
-    "amountRaised": 196404.0,
-    "backers": 989,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Norrland Parka Worlds Best Winter Coat With 20 Fea",
-    "url": "https://www.kickstarter.com/projects/norrlandparka/norrland-parka-worlds-best-winter-coat-with-20-fea",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Design",
-    "coverImage": "/images/campaigns/072-norrland-parka-worlds-best-winter-coat-with-20-fea.png",
-    "fundingGoal": 100000.0,
-    "amountRaised": 1817559.0,
-    "backers": 565,
-    "fundingCurrency": "SEK",
-    "raisedCurrency": "SEK"
-  },
-  {
-    "title": "Kin Worlds First Wallet That Sorts Your Cash In A",
-    "url": "https://www.kickstarter.com/projects/19308538/kin-worlds-first-wallet-that-sorts-your-cash-in-a",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/073-kin-worlds-first-wallet-that-sorts-your-cash-in-a.png",
-    "fundingGoal": 4000.0,
-    "amountRaised": 280468.0,
-    "backers": 4746,
-    "fundingCurrency": "SGD",
-    "raisedCurrency": "SGD"
-  },
-  {
-    "title": "The Future In Floor Cleaning Is Here Duet All In One System",
-    "url": "https://www.kickstarter.com/projects/dueteasy/the-future-in-floor-cleaning-is-here-duet-all-in-one-system",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/074-the-future-in-floor-cleaning-is-here-duet-all-in-one-system.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 196002.0,
-    "backers": 3892,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "1Q Natural Sound For Your Mobile Life",
-    "url": "https://www.kickstarter.com/projects/123227834/1q-natural-sound-for-your-mobile-life",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/075-1q-natural-sound-for-your-mobile-life.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 194682.0,
-    "backers": 1309,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Eclipse: The Morphing Coin Shaped Everyday Carry Knife",
-    "url": "https://www.kickstarter.com/projects/horizonknives/eclipse-the-morphing-coin-shaped-everyday-carry-kn",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/076-eclipse-the-morphing-coin-shaped-everyday-carry-knife.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 194488.0,
-    "backers": 2861,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Duo | Coffee Steeper",
-    "url": "https://www.kickstarter.com/projects/fellow/duo-coffee-steeper",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/077-duo-coffee-steeper.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 193402.0,
-    "backers": 2712,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Respira - The air purifying garden that takes care of itself",
-    "url": "https://www.kickstarter.com/projects/respira/respira-the-air-purifying-garden-that-takes-care-of-itself",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Design",
-    "coverImage": "/images/campaigns/078-respira-the-air-purifying-garden-that-takes-care-of-itself.png",
-    "fundingGoal": 32400.0,
-    "amountRaised": 240963.0,
-    "backers": 304,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Alex Bottle Twist Open Clean Easy Pack Small",
-    "url": "https://www.kickstarter.com/projects/1914152870/alex-bottle-twist-open-clean-easy-pack-small",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/079-alex-bottle-twist-open-clean-easy-pack-small.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 184587.0,
-    "backers": 3525,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Scanbox - Turn your iPhone into a portable scanner",
-    "url": "https://www.kickstarter.com/projects/limemouse/scanbox-turn-your-smartphone-into-a-portable-scann",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Design",
-    "coverImage": "/images/campaigns/080-scanbox-turn-your-iphone-into-a-portable-scanner.png",
-    "fundingGoal": 12500.0,
-    "amountRaised": 184499.0,
-    "backers": 5585,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "SPIRGRIPS PLUS - The world’s most awarded bike handles.",
-    "url": "https://www.kickstarter.com/projects/spirgrips/spirgrips-ergonomics-bike-handles",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/081-spirgrips-plus-the-worlds-most-awarded-bike-handles.png",
-    "fundingGoal": 38000.0,
-    "amountRaised": 157064.0,
-    "backers": 2679,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "DUO Glass | All Purpose Cocktail and Whiskey Glass",
-    "url": "https://www.kickstarter.com/projects/agedandore/duo-glass-all-purpose-cocktail-and-whiskey-glass",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/082-duo-glass-all-purpose-cocktail-and-whiskey-glass.png",
-    "fundingGoal": 11000.0,
-    "amountRaised": 184104.0,
-    "backers": 2905,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Chopsy — Food Prep Made Easy",
-    "url": "https://www.kickstarter.com/projects/grahamripple/chopsy-the-smart-chopping-board",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/083-chopsy-food-prep-made-easy.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 183469.0,
-    "backers": 1541,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "ESPRO 2: The “No-Mess” French Press Coffee Maker",
-    "url": "https://www.kickstarter.com/projects/espro/espro-2-no-mess-french-press",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/084-espro-2-the-nomess-french-press-coffee-maker.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 183173.0,
-    "backers": 1633,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Kangaroo Porter Hassle Free Utility Cart",
-    "url": "https://www.kickstarter.com/projects/kangarooporter/kangaroo-porter-hassle-free-utility-cart",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Product Design",
-    "coverImage": "/images/campaigns/085-kangaroo-porter-hassle-free-utility-cart.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 183010.0,
-    "backers": 776,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Game Canopytm",
-    "url": "https://www.kickstarter.com/projects/level3b/the-game-canopytm",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/086-the-game-canopytm.png",
-    "fundingGoal": 2150.0,
-    "amountRaised": 299932.0,
-    "backers": 1753,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Decimus Tcg",
-    "url": "https://www.kickstarter.com/projects/sixen/decimus-tcg",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Playing Cards",
-    "coverImage": "/images/campaigns/087-decimus-tcg.png",
-    "fundingGoal": 40000.0,
-    "amountRaised": 253667.0,
-    "backers": 664,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "Survivalist The Board Game",
-    "url": "https://www.kickstarter.com/projects/survivalist/survivalist-the-board-game",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/088-survivalist-the-board-game.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 276550.0,
-    "backers": 2588,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Card Butler Affordable Automated Collection Management",
-    "url": "https://www.kickstarter.com/projects/card-butler/card-butler-affordable-automated-collection-management",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Playing Cards",
-    "coverImage": "/images/campaigns/089-card-butler-affordable-automated-collection-management.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 240296.0,
-    "backers": 1434,
-    "fundingCurrency": "CHF",
-    "raisedCurrency": "CHF"
-  },
-  {
-    "title": "A Hat In Time 3D Collect A Thon Platformer",
-    "url": "https://www.kickstarter.com/projects/jonaskaerlev/a-hat-in-time-3d-collect-a-thon-platformer",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Video Games",
-    "coverImage": "/images/campaigns/090-a-hat-in-time-3d-collect-a-thon-platformer.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 296360.0,
-    "backers": 9169,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Traveller 5TH Edition",
-    "url": "https://www.kickstarter.com/projects/traveller5/traveller-5th-edition",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/091-traveller-5th-edition.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 166304.0,
-    "backers": 1273,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "World Of Anterra",
-    "url": "https://www.kickstarter.com/projects/81monkeys/world-of-anterra",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Video Games",
-    "coverImage": "/images/campaigns/092-world-of-anterra.png",
-    "fundingGoal": 130000.0,
-    "amountRaised": 397766.0,
-    "backers": 5957,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Publish or Perish: A Humorous Party Game about Academia",
-    "url": "https://www.kickstarter.com/projects/maxhuibai/publish-or-perish-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/093-publish-or-perish-a-humorous-party-game-about-academia.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 292537.0,
-    "backers": 5944,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Lazy Dms Forge Of Foes For 5E",
-    "url": "https://www.kickstarter.com/projects/slyflourish/the-lazy-dms-forge-of-foes-for-5e",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/094-the-lazy-dms-forge-of-foes-for-5e.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 289601.0,
-    "backers": 7207,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Investing Town",
-    "url": "https://www.kickstarter.com/projects/investingtown/investing-town",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Games",
-    "coverImage": "/images/campaigns/095-investing-town.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 227497.0,
-    "backers": 47,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "Bios Origins 2ND Ed Pax Transhumanity And Pax Porf",
-    "url": "https://www.kickstarter.com/projects/684398802/bios-origins-2nd-ed-pax-transhumanity-and-pax-porf",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/096-bios-origins-2nd-ed-pax-transhumanity-and-pax-porf.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 288789.0,
-    "backers": 2380,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Pantheum Demigods Of Olympia",
-    "url": "https://www.kickstarter.com/projects/pantheum/pantheum-demigods-of-olympia",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/097-pantheum-demigods-of-olympia.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 288619.0,
-    "backers": 3374,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Shuffle Up And Play Season 3",
-    "url": "https://www.kickstarter.com/projects/tolarian/shuffle-up-and-play-season-3",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Playing Cards",
-    "coverImage": "/images/campaigns/098-shuffle-up-and-play-season-3.png",
-    "fundingGoal": 100000.0,
-    "amountRaised": 288205.0,
-    "backers": 4087,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Tiny Epic Game Of Thrones",
-    "url": "https://www.kickstarter.com/projects/tinyepic/tiny-epic-game-of-thrones",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/099-tiny-epic-game-of-thrones.png",
-    "fundingGoal": 60000.0,
-    "amountRaised": 541881.0,
-    "backers": 11570,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Farms Race",
-    "url": "https://www.kickstarter.com/projects/mediumbrowgames/farms-race",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/100-farms-race.png",
-    "fundingGoal": 1984.0,
-    "amountRaised": 285905.0,
-    "backers": 3614,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "HYPER MIRROR-0 Latency Casting Solution For Phone & NTD Switch",
-    "url": "https://www.kickstarter.com/projects/hyper-mirror/hyper-mirror-5g-mm-wave-tech-0-latency-mirroring-device",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Gaming Hardware",
-    "coverImage": "/images/campaigns/101-hyper-mirror0-latency-casting-solution-for-phone-ntd-switch.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 285746.0,
-    "backers": 1832,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Unfair",
-    "url": "https://www.kickstarter.com/projects/goodgames/unfair",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Tabletop Games",
-    "coverImage": "/images/campaigns/102-unfair.png",
-    "fundingGoal": 47600.0,
-    "amountRaised": 284846.0,
-    "backers": 5236,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "DRACULA: BOOK III – THE COUNT",
-    "url": "https://www.kickstarter.com/projects/draculatheimpaler/dracula-book-3",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/103-dracula-book-iii-the-count.png",
-    "fundingGoal": 666.0,
-    "amountRaised": 244337.0,
-    "backers": 2637,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Nexus: Deluxe Hardcover Omnibus - Volume One",
-    "url": "https://www.kickstarter.com/projects/big-studios/nexus-deluxe-hardcover-omnibus-volume-one",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/104-nexus-deluxe-hardcover-omnibus-volume-one.png",
-    "fundingGoal": 25000.0,
-    "amountRaised": 234961.0,
-    "backers": 1301,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "DRACULA: BOOK II – THE BRIDES Graphic Novel",
-    "url": "https://www.kickstarter.com/projects/draculatheimpaler/dracula-book-ii-the-brides",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/105-dracula-book-ii-the-brides-graphic-novel.png",
-    "fundingGoal": 666.0,
-    "amountRaised": 228937.0,
-    "backers": 2798,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Scott Snyder & Tony Daniel’s NOCTERRA 1 Collector’s Edition",
-    "url": "https://www.kickstarter.com/projects/scottsnyder/scott-snyder-and-tony-daniels-nocternal-1-collectors-edition",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/106-scott-snyder-tony-daniels-nocterra-1-collectors-edition.png",
-    "fundingGoal": 40000.0,
-    "amountRaised": 218380.0,
-    "backers": 4068,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Steve Lichman – Volume 1",
-    "url": "https://www.kickstarter.com/projects/stevelichman/steve-lichman-volume-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/107-steve-lichman-volume-1.png",
-    "fundingGoal": 18000.0,
-    "amountRaised": 198608.0,
-    "backers": 6033,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Pixie and Brutus: Gnome Sweet Gnome",
-    "url": "https://www.kickstarter.com/projects/pixieandbrutus/pixie-and-brutus-gnome-sweet-gnome",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/108-pixie-and-brutus-gnome-sweet-gnome.png",
-    "fundingGoal": 12000.0,
-    "amountRaised": 189057.0,
-    "backers": 7077,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "CommitStrip – Rise of the Coders: A Book About the Future",
-    "url": "https://www.kickstarter.com/projects/commitstrip/commitstrip-rise-of-the-coders-a-book-about-the-fu",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/109-commitstrip-rise-of-the-coders-a-book-about-the-future.png",
-    "fundingGoal": 13371.0,
-    "amountRaised": 166721.0,
-    "backers": 4557,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The ARIA Omnibus",
-    "url": "https://www.kickstarter.com/projects/haberlin/the-aria-omnibus",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/110-the-aria-omnibus.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 169481.0,
-    "backers": 1568,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Exiled",
-    "url": "https://www.kickstarter.com/projects/failedsuperhero/the-exiled",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/111-the-exiled.png",
-    "fundingGoal": 20000.0,
-    "amountRaised": 142403.0,
-    "backers": 1047,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Book of Jusko",
-    "url": "https://www.kickstarter.com/projects/1510966209/the-book-of-jusko",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/112-the-book-of-jusko.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 140964.0,
-    "backers": 1069,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Complete MFKZ Series by Run",
-    "url": "https://www.kickstarter.com/projects/label619/the-complete-mfkz-series-by-run",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/113-the-complete-mfkz-series-by-run.png",
-    "fundingGoal": 7500.0,
-    "amountRaised": 140693.0,
-    "backers": 1148,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "8-BIT THEATER 20TH ANNIVERSARY BOOK – wait 20 years?! SON OF A",
-    "url": "https://www.kickstarter.com/projects/bclev/8-bit-theater-20th-anniversary-book-wait-20-years-son-of-a",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/114-8bit-theater-20th-anniversary-book-wait-20-years-son-of-a.png",
-    "fundingGoal": 28000.0,
-    "amountRaised": 138003.0,
-    "backers": 1623,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Dreadstar Returns",
-    "url": "https://www.kickstarter.com/projects/312724224/dreadstar-returns",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/115-dreadstar-returns.png",
-    "fundingGoal": 28000.0,
-    "amountRaised": 135671.0,
-    "backers": 1696,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Power Hour 2",
-    "url": "https://www.kickstarter.com/projects/blackops/power-hour-2",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comic Books",
-    "coverImage": "/images/campaigns/116-power-hour-2.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 133761.0,
-    "backers": 979,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Broodhollow Book 1 Curious Little Thing",
-    "url": "https://www.kickstarter.com/projects/krisstraub/broodhollow-book-1-curious-little-thing",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/117-broodhollow-book-1-curious-little-thing.png",
-    "fundingGoal": 27500.0,
-    "amountRaised": 129284.0,
-    "backers": 1951,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Devil's Candy - Book 1",
-    "url": "https://www.kickstarter.com/projects/devilscandycomic/devils-candy-book-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/118-devils-candy-book-1.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 121142.0,
-    "backers": 2072,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Naisu N1 Worlds Most Compact Clear Ice Maker",
-    "url": "https://www.kickstarter.com/projects/91percent/naisu-n1-worlds-most-compact-clear-ice-maker",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/119-naisu-n1-worlds-most-compact-clear-ice-maker.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 179975.0,
-    "backers": 1558,
-    "fundingCurrency": "SGD",
-    "raisedCurrency": "SGD"
-  },
-  {
-    "title": "Kerfluffles Marshmallows All Natural Handmade Yumm",
-    "url": "https://www.kickstarter.com/projects/1649827049/kerfluffles-marshmallows-all-natural-handmade-yumm",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/120-kerfluffles-marshmallows-all-natural-handmade-yumm.png",
-    "fundingGoal": 2023.0,
-    "amountRaised": 104667.0,
-    "backers": 2632,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "ChicGarlique: 2.5X Garlic, No Peeling & No Smell",
-    "url": "https://www.kickstarter.com/projects/324720515/chicgarlique-garlic-press-crusher-mincer-best-garlic-press",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/121-chicgarlique-2.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 93039.0,
-    "backers": 2659,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Aizopa Nugget Ice Maker Worlds Fastest Nugget Ice Maker",
-    "url": "https://www.kickstarter.com/projects/aizopa/aizopa-nugget-ice-maker-worlds-fastest-nugget-ice-maker",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/122-aizopa-nugget-ice-maker-worlds-fastest-nugget-ice-maker.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 74289.0,
-    "backers": 267,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Higher Order Drink Smokers",
-    "url": "https://www.kickstarter.com/projects/higherorder/higher-order-drink-smokers",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/123-higher-order-drink-smokers.png",
-    "fundingGoal": 7300.0,
-    "amountRaised": 57993.0,
-    "backers": 669,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Sweet And Full Bodied Espresso Mod",
-    "url": "https://www.kickstarter.com/projects/stepped-coffee/sweet-and-full-bodied-espresso-mod",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/124-sweet-and-full-bodied-espresso-mod.png",
-    "fundingGoal": 6000.0,
-    "amountRaised": 42337.0,
-    "backers": 1146,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "Rebel Ramen The Worlds First High Protein Instant",
-    "url": "https://www.kickstarter.com/projects/rebelramen/rebel-ramen-the-worlds-first-high-protein-instant",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Vegan",
-    "coverImage": "/images/campaigns/125-rebel-ramen-the-worlds-first-high-protein-instant.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 70313.0,
-    "backers": 1864,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Mix Tape, XXXXX Scorpion + the World’s First Hot Pepper CSA",
-    "url": "https://www.kickstarter.com/projects/homesweethomegrown/mix-tape-xxxxx-scorpion-the-worlds-first-hot-peppe",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/126-mix-tape-xxxxx-scorpion-the-worlds-first-hot-pepper-csa.png",
-    "fundingGoal": 1600.0,
-    "amountRaised": 51225.0,
-    "backers": 1134,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Help Grow My Kitchen Gadget Range",
-    "url": "https://www.kickstarter.com/projects/mrbarrylewis/help-grow-my-kitchen-gadget-range",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/127-help-grow-my-kitchen-gadget-range.png",
-    "fundingGoal": 2000.0,
-    "amountRaised": 38953.0,
-    "backers": 888,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "Doppio Double Sided Kitchen Knife",
-    "url": "https://www.kickstarter.com/projects/228096009/doppio-double-sided-kitchen-knife",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/128-doppio-double-sided-kitchen-knife.png",
-    "fundingGoal": 6500.0,
-    "amountRaised": 45031.0,
-    "backers": 772,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Geek Out Geek Bar",
-    "url": "https://www.kickstarter.com/projects/cantinaforward/geek-out-geek-bar",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/129-geek-out-geek-bar.png",
-    "fundingGoal": 9750.0,
-    "amountRaised": 44538.0,
-    "backers": 658,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Smokey Skull: The Craft Cocktail Smoker",
-    "url": "https://www.kickstarter.com/projects/smokeyskull/smokey-skull-the-craft-cocktail-smoker",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/130-smokey-skull-the-craft-cocktail-smoker.png",
-    "fundingGoal": 3000.0,
-    "amountRaised": 41679.0,
-    "backers": 483,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Wizarding Cookbook: Year One",
-    "url": "https://www.kickstarter.com/projects/wizardingcookbook/wizarding-cookbook-year-one",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Cookbooks",
-    "coverImage": "/images/campaigns/131-wizarding-cookbook-year-one.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 30216.0,
-    "backers": 597,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "The Easiest Way to Make Real Kombucha at Home",
-    "url": "https://www.kickstarter.com/projects/brewkombucha/the-easiest-way-to-make-real-kombucha-at-home",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/132-the-easiest-way-to-make-real-kombucha-at-home.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 35850.0,
-    "backers": 733,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Custom Kitchen Knives - Unique, Rare & Beautiful",
-    "url": "https://www.kickstarter.com/projects/koiknives/custom-kitchen-knives-unique-rare-and-beautiful",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/133-custom-kitchen-knives-unique-rare-beautiful.png",
-    "fundingGoal": 2500.0,
-    "amountRaised": 42643.0,
-    "backers": 147,
-    "fundingCurrency": "AUD",
-    "raisedCurrency": "AUD"
-  },
-  {
-    "title": "Help Innocent Ice Cream Sandwiches Finish Their New Store",
-    "url": "https://www.kickstarter.com/projects/innocenticecream/help-innocent-ice-cream-sandwiches-finish-their-new-store",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Restaurants",
-    "coverImage": "/images/campaigns/134-help-innocent-ice-cream-sandwiches-finish-their-new-store.png",
-    "fundingGoal": 12000.0,
-    "amountRaised": 37495.0,
-    "backers": 123,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "Seally Cap Set",
-    "url": "https://www.kickstarter.com/projects/542106477/seally-cap",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/135-seally-cap-set.png",
-    "fundingGoal": 15000.0,
-    "amountRaised": 34784.0,
-    "backers": 961,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Noodles, Drinks, World Peace: Recipes from Noodle Nirvana",
-    "url": "https://www.kickstarter.com/projects/997544728/noodles-drinks-world-peace-recipes-from-noodle-nirvana",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Cookbooks",
-    "coverImage": "/images/campaigns/136-noodles-drinks-world-peace-recipes-from-noodle-nirvana.png",
-    "fundingGoal": 3000.0,
-    "amountRaised": 21177.0,
-    "backers": 477,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "muncha! Crispy Beef Jerky Chips",
-    "url": "https://www.kickstarter.com/projects/munchachips/muncha-beef-jerky-chips-0",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Food",
-    "coverImage": "/images/campaigns/137-muncha-crispy-beef-jerky-chips.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 21125.0,
-    "backers": 334,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "BRUM: The Spirit Aging Bottle",
-    "url": "https://www.kickstarter.com/projects/830242145/brum-the-spirit-aging-bottle",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Drinks",
-    "coverImage": "/images/campaigns/138-brum-the-spirit-aging-bottle.png",
-    "fundingGoal": 8000.0,
-    "amountRaised": 17120.0,
-    "backers": 259,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!",
-    "url": "https://www.kickstarter.com/projects/cloverpressart/the-marvel-art-of-dan-dos-santos-a-deluxe-art-book-and-more",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Graphic Novels",
-    "coverImage": "/images/campaigns/139-the-marvel-art-of-dan-dos-santos-a-deluxe-art-book-more.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 126900.0,
-    "backers": 707,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "AKREON - Artbook by Anna Podedworna",
-    "url": "https://www.kickstarter.com/projects/spiridon/akreon",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Art Books",
-    "coverImage": "/images/campaigns/140-akreon-artbook-by-anna-podedworna.png",
-    "fundingGoal": 25000.0,
-    "amountRaised": 80028.0,
-    "backers": 698,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Art of Sakimichan Vol 3: The Final Hard One",
-    "url": "https://www.kickstarter.com/projects/artofsakimichannsfw/the-art-of-sakimichan-vol-3-the-final-hard-one",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Art Books",
-    "coverImage": "/images/campaigns/141-the-art-of-sakimichan-vol-3-the-final-hard-one.png",
-    "fundingGoal": 75000.0,
-    "amountRaised": 191337.0,
-    "backers": 797,
-    "fundingCurrency": "CAD",
-    "raisedCurrency": "CAD"
-  },
-  {
-    "title": "The Art of Zarory",
-    "url": "https://www.kickstarter.com/projects/zarory/the-art-of-zarory",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Digital Art",
-    "coverImage": "/images/campaigns/142-the-art-of-zarory.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 16306.0,
-    "backers": 209,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Oracle of Many Paths",
-    "url": "https://www.kickstarter.com/projects/jamesreads/the-oracle-of-many-paths",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Illustration",
-    "coverImage": "/images/campaigns/143-the-oracle-of-many-paths.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 277399.0,
-    "backers": 3074,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Rebel Loon Archive: A Book of Protest Art",
-    "url": "https://www.kickstarter.com/projects/rebelloonpress/the-rebel-loon-archive-hardcover-book",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Art Books",
-    "coverImage": "/images/campaigns/144-the-rebel-loon-archive-a-book-of-protest-art.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 65351.0,
-    "backers": 768,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Goliath GP STL Definitive Collection Miniatures for 3D Print",
-    "url": "https://www.kickstarter.com/projects/claudiocasiniart/goliath-stl-definitive-collection-miniatures-for-3d-print",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Digital Art",
-    "coverImage": "/images/campaigns/145-goliath-gp-stl-definitive-collection-miniatures-for-3d-print.png",
-    "fundingGoal": 90.0,
-    "amountRaised": 1465.0,
-    "backers": 114,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Bones of Becoming Oracle Deck: Second Edition",
-    "url": "https://www.kickstarter.com/projects/bonesofbecoming/the-bones-of-becoming-oracle-deck-second-edition",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Digital Art",
-    "coverImage": "/images/campaigns/146-the-bones-of-becoming-oracle-deck-second-edition.png",
-    "fundingGoal": 6000.0,
-    "amountRaised": 7019.0,
-    "backers": 65,
-    "fundingCurrency": "AUD",
-    "raisedCurrency": "AUD"
-  },
-  {
-    "title": "Arcane - Luxury Tarot and Art Playing Cards",
-    "url": "https://www.kickstarter.com/projects/jackbrutuspenny/arcane-luxury-tarot-",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Playing Cards",
-    "coverImage": "/images/campaigns/147-arcane-luxury-tarot-and-art-playing-cards.png",
-    "fundingGoal": 1000000.0,
-    "amountRaised": 15033633.0,
-    "backers": 976,
-    "fundingCurrency": "JPY",
-    "raisedCurrency": "JPY"
-  },
-  {
-    "title": "Historical Trailblazers: Romance Collection",
-    "url": "https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fiction",
-    "coverImage": "/images/campaigns/148-historical-trailblazers-romance-collection.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 395385.0,
-    "backers": 1497,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Mother of Learning: ARC 1 - Illustrated Deluxe Edition",
-    "url": "https://www.kickstarter.com/projects/wraithmarked/mol1dlx",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fiction",
-    "coverImage": "/images/campaigns/149-mother-of-learning-arc-1-illustrated-deluxe-edition.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 151727.0,
-    "backers": 970,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "The Odyssey - Special Limited Edition",
-    "url": "https://www.kickstarter.com/projects/wraithmarked/odyssey-1",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fiction",
-    "coverImage": "/images/campaigns/150-the-odyssey-special-limited-edition.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 148407.0,
-    "backers": 1359,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Junichiro Jackson (JJ) - Psychological Thriller Manga Series",
-    "url": "https://www.kickstarter.com/projects/teamto/jj",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Comics",
-    "coverImage": "/images/campaigns/151-junichiro-jackson-jj-psychological-thriller-manga-series.png",
-    "fundingGoal": 42000.0,
-    "amountRaised": 101071.0,
-    "backers": 851,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Shadows of the Tenebris Court: Collector's Edition Romantasy",
-    "url": "https://www.kickstarter.com/projects/claresager/shadows-of-the-tenebris-court-collectors-edition-romantasy",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fiction",
-    "coverImage": "/images/campaigns/152-shadows-of-the-tenebris-court-collectors-edition-romantasy.png",
-    "fundingGoal": 5000.0,
-    "amountRaised": 83428.0,
-    "backers": 604,
-    "fundingCurrency": "GBP",
-    "raisedCurrency": "GBP"
-  },
-  {
-    "title": "The World of Frostpunk: Artbook & Anthology",
-    "url": "https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Art Books",
-    "coverImage": "/images/campaigns/153-the-world-of-frostpunk-artbook-anthology.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 638203.0,
-    "backers": 3807,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "The Torch that Ignites the Stars Illustrated Deluxe Edition",
-    "url": "https://www.kickstarter.com/projects/wxp/aa3",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Fiction",
-    "coverImage": "/images/campaigns/154-the-torch-that-ignites-the-stars-illustrated-deluxe-edition.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 123033.0,
-    "backers": 795,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet",
-    "url": "https://www.kickstarter.com/projects/petypot/petypot",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/155-petypot-aipowered-litterfree-selfcleaning-cat-toilet.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 650923.0,
-    "backers": 1512,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Keychron K3 HE & K3 Ultra: Slim Wireless Custom Keyboards",
-    "url": "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/156-keychron-k3-he-k3-ultra-slim-wireless-custom-keyboards.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 284900.0,
-    "backers": 2044,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Owl3D Shift: The Glasses-Free 3D Portal for Your PC",
-    "url": "https://www.kickstarter.com/projects/owl3d/owl3d-shift-the-glasses-free-3d-portal-for-your-pc",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/157-owl3d-shift-the-glassesfree-3d-portal-for-your-pc.png",
-    "fundingGoal": 50000.0,
-    "amountRaised": 347611.0,
-    "backers": 795,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "Ray: Watch Anything. Understand Everything.",
-    "url": "https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Software",
-    "coverImage": "/images/campaigns/158-ray-watch-anything-understand-everything.png",
-    "fundingGoal": 26000.0,
-    "amountRaised": 227420.0,
-    "backers": 1117,
-    "fundingCurrency": "USD",
-    "raisedCurrency": "USD"
-  },
-  {
-    "title": "KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Touchscreen",
-    "url": "https://www.kickstarter.com/projects/1794064432/keygo-gen2-ultra-slim-folding-keyboard-with-4k-touch-screen",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/159-keygo-gen2-pro-slim-foldable-keyboard-with-4k-touchscreen.png",
-    "fundingGoal": 30000.0,
-    "amountRaised": 4965010.0,
-    "backers": 1770,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "FocusRay - VR FacialTracking Device",
-    "url": "https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/160-focusray-vr-facialtracking-device.png",
-    "fundingGoal": 4000000.0,
-    "amountRaised": 18488436.0,
-    "backers": 1306,
-    "fundingCurrency": "JPY",
-    "raisedCurrency": "JPY"
-  },
-  {
-    "title": "energieleser - endlich alle Zähler im Blick",
-    "url": "https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Hardware",
-    "coverImage": "/images/campaigns/161-energieleser-endlich-alle-zahler-im-blick.png",
-    "fundingGoal": 10000.0,
-    "amountRaised": 32464.0,
-    "backers": 391,
-    "fundingCurrency": "EUR",
-    "raisedCurrency": "EUR"
-  },
-  {
-    "title": "VoxMeta H1 Pro: Metrology-Grade 3D Scanner",
-    "url": "https://www.kickstarter.com/projects/voxmeta/h1-pro-3d-scanner",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Technology",
-    "coverImage": "/images/campaigns/162-voxmeta-h1-pro-metrologygrade-3d-scanner.png",
-    "fundingGoal": 117640.0,
-    "amountRaised": 1416498.0,
-    "backers": 91,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  },
-  {
-    "title": "Jetro: Keep Freshness Longer",
-    "url": "https://www.kickstarter.com/projects/ionizo/jetro-keep-freshness-longer",
-    "platform": "Kickstarter",
-    "outcome": "Successful",
-    "category": "Gadgets",
-    "coverImage": "/images/campaigns/163-jetro-keep-freshness-longer.png",
-    "fundingGoal": 39000.0,
-    "amountRaised": 698121.0,
-    "backers": 1317,
-    "fundingCurrency": "HKD",
-    "raisedCurrency": "HKD"
-  }
-]
+PK    M®v]_v¤àf2  É/    public/campaigns.jsonÍ}ÛrãH²ØûùŠÚ=ŽÙsÂ“MâJ _Ô­¥iÝVTÏì¬ÃE°H¢¢¸¸Hb{±ÿpüâûÍâ?Ù/qfH‘j«… :bF @V&*+³2³òò_ÿ…±ÿŽÿ1öÇ".ñÇìŸÅbÌxV°sÝ}dŸâ{Á²ÌØHÊŒ%x“q–Š–Äcñ‡?þ¬Ç(³„F˜Å<ÿØé<<<|¸‹£»¼À‘Dö!’³Î<“_ETä»ëº–åõº;
+r46L< xú„o	nžðb,³™Âú	Îò±,„¨ÞiPF‘Èóq™,F¼™-èé'>šˆ"_=’÷";›ñ‰úi'¦«¼ñÙœÇ“4ït»ìŒó‡1œ/!ŒËt§“O’Ó|9]ü÷¡[=ã3Y¦Å
+s1Â‡VÏuÜ`õtÈ£;‘åô Û6‡;,³L¤‘z¥ã/7K`™êùC|ö?~®¡þ5ÏøÀŽD~Ç€ã\,Š)Oôÿ.wØO1bqŠË`„ß4Z–çY¾:ÝÎ¼‚
+4ˆLšOœUº$Ä)ÎêèÍ×À)ÏF<¯_6ìŽu~g¼B?´{5ë ô¶/ƒ/ƒ£íË€n[ƒþÙùGv;ø_œ¦"/OGìBâE<–8[ì8A*fqÄw8‘Cºg²
+'ình{œÇ	ðD50ä«i¬gX¦ì0Ü»p@¡[LÕ!î#˜IºÐST÷&
+Àê6® ÏAZ×‰ßín_§Ÿ– =Ü¶Înà )Ê \ÙŒ'ŒæƒÚæS¤ë«9¥94 <N×"ã¹L;qCFÓI  Ö ´|U €?µ?Öw!Î^nÁífŽ÷‚®W'ùí°ÞÆ,!³‰dŸ¤ße¨¨Åú‘Ñ½TÎâ(Ç­@&÷bô”qR°‚¾ûÁ„î3)pÔêL í§šÏÅ
+²»‚C}sÿ¤÷À í—x~ÛpãÝ:¡ï†
+{ÿå_V =Ü¶~“Y2úSÎÆq†bþ!ÎP|åy²`Ñ”gÜîÏ†å(7Úë»–íøBv§ÈÊ¾JÜIx.Á@FW±L÷Oeh.rPSOSÕT@5
+”õšÕ:Û¶ëÕ:¿
+µî@ðô@¦ß)tŒ£–‡sŒjÜç’Er<‚e’çk3½“^ï»He×÷:C„9”é3Å¢ÚÍ9DÐáÄ·"ý­ˆ¦©Lädñzâ÷ÀsSG1ï9nÍJ°]¿)pÆ~µ?tq!ôY.’1²Ý<‰qÊÀÏlO¦lž‰(Î‘™sÄ®³85\	
+¯®Ósl·3ŒáÞîâÄ=	VÁá‚øÖaù*óõ+! …¸©În[ÝÀéÖ‘¶çl'ía¿´ôp«é&DÉŒT¶Ã7èi&K¤g.“xÄf¢@î!.¦ìøèÂ„žâŸÉ¡,p—ëÌ—À *q—Ó @
+ˆÑì]P2„×#ü‚LßÎÈ6’»†Ú^7l‘ø·oÄ WVš6ÌF÷<pŸ>?<bƒóþòï!8#ÍŽ™úDìI{¶¶q*hD#ÈþÄ»o.ÅMHnua”Íír»ë×ié¶åµAuqŸ'r.rÖOÉf‡<eç¨Œ¤ìV²CùäÙ…Ò¡e÷BËòÎh9>Ú²ÊÔŽÐOh|Òd#ùöŽ—þ|þz«Û²àe›HzÍ¤ôüZRºmpðq‰jÄB{YV¾”C)‘±ßHN÷ÙI™ úÝ/9ãäo;‹Õù¡ffYŽëZ¡t„­cå¢ˆd-Çø.ÄrÐ:Ü½©æ–
+/!Ï·£ß°4ÜF.wÃ°ëÕéë®ßà~3ö½|’É˜]s”äg—Ÿq;¯^×Ç„žL8ªêíÇ¤Æ]]³›³O§·&«‚œó‘úxIœÞÁ
+ ¨û– aDl—Åï@W·ØïÉ´hX~³´·¼°NY·ìÐmADÜ>Èã
+û_o˜ãw¾¹È¸ï»nØóüÐïRàpŸ	›C¾)Õ¨ìøoe<Ÿ‰´x=A]¨EÐ˜qCË
+ê<(~Ø†H¿‰œÅéˆ}Dí[°2)b’@,	ääÛ`SÁG¹(Lˆø^/ô,´§f%—Pà	
+<ƒ²OõàµØ;SüÐµëì¬ÀkÅ—OØ™ÚµO”£ìÉ”'ñ7Ü¡Oø,Æ-û†ì$§db¡Á<XÍ—ö@Í×`ÀXÁ€lÆ[QX!¾ƒBæÃ«Q5?ù»=¿Ž‰­^.’þù9ªai‘É„T±¿³/iŒÓ£ùüS¥‘–9î3ñ7>LŒn+°,+ý^ØáI‚ÚË”KXê0I+2Q
+´ý)`=ØŠò÷è6Ð¼×dLÛŽÝµëtq«ç4l´Æ¾“¥ë[sôp.cÎ>ÇIB*–1;Gh™¤¹À_w6<ÊÃ
+Üií0óohvàç ^çÆòV>¶‚^à[µ^o·×†þtï;“…ÌP±|Î#6˜ò‘0:Çè¡„atfkcÃP­x6ß{Ÿ;oÍ86‘±Y«ò»aàÔžMz¡µŽƒãÏÛéH·ÑñTs6øÐÿ€’9¸¿Š¢ÌÒœ!oOÙñ_®û—ƒcŠGé£Ít{{~ÌŽŽû·§&$J9ƒ¼(G±Ì;_	2äÈuˆ™†K®e>Î‰½uxGˆ.Œ/¦ožñùÍ¿K$hòzv¶»°|Så*{¾WçÖ¬&/¶1ËþÑ‰-ÇìêûWÜŠÄ¿öÙáÕ¯Ç—`É Ø€ÏÕ¬œð´à¹QBD‡¶e*Q<sßÜ¢ÁÙ”w;Ì"/MÈ1Èo@&‘:'"Z…÷"…™z}$ªz}T²Ôë7Ø
+ö¼Ð«·iƒ6\˜ƒr8ãÑ4NªVO3dH€s]æßò»²Hã»N¾Ya¸6î^ijC-n¦¡!í†uöNè4µÆöÎàË§þ
+»¾ºÖ®ÊÔÑŽý6“("eóâ³ÍNÒ™HGòGÚMxs9×–ª‘h>¬`À¼ û]Ò—Q5<AòƒÀ¯Óy§
+A{‚Û”œ±ÛÍsbÆ«YËü#ûU&åL0Ë„¢<Ÿ#lÓ+ PT @j p¯Æë½ì‘.¼„©±c"íZ¯±eõÚp?ÜÿyE¿5"à8›ñtÂÕUk´2b=6p2•žŽ:uÞ/h`3cé©NgQçæSTÃyj$'ãû8‹@ÅZêD³fÐ½’Ç‡çh5óÍV®éz~m@ŒßFØã‘¸´üJÁ®3‘‹´@x!²hÁsž=2`¶G§qiåçÈèˆbž˜Ðò«Ì§Ñ0áJ óÖ8ÉaT
+
+‚QÀaF°!'Øï‚®=xK ùA»r5?x[ÍOýñßÖ`{nX· ì6öÁÏ_é#;H¤±Ÿ”k@>°+ÜS3§Ï7‘Š<’8š[ïšß`e}Ë Ó¨wAà Ö1|Â.Ÿ6ºzPÝnStƒ Ž‡=¯
+7ÏÁ—›óþ5ûõêü³Ø§›þõéÙ!»D[ñÜÈ€_æóŠxúm:`ÁD«’ŠÑ
+ív [O¸jœžnqÇµ@¥‘Êö”Ï?2åpýç?þWÎ¬¼@qKÁi—’r$äû'‰ÙY¦`@Ž0Ö¯7š=ò×XVààaÜ[‘ó:“£2*(‘
+	öj²:]¨A'©ŠR{†uÓ¡Šµ–0ô©a×:bƒ¦H—O×Û)O·ŠØã3vÝ?ü\«”Ê{#ÇìßŽ¿ü;;¥Ì¢ór2¡I1 yèX~x=mÏ2e‘)ãLA"GŠ(aJ²7Ù„³obS&asœÿf|›tÝFUÊíÖ‰á¦cM÷0NåŒâŸ%ë~d}:J¹£×SAæÈôw?³ÛŒ§y\ü¬2ÊðÃš(ÝÉs·7¬`¬Ý‚™Â 8,ªÈmä¦;Š!øj+.6Àï{5Ø`ú¦ÑçÝóƒ:Ÿƒï7èZÆqM×8Ÿ‹£Lâà(!ü´>n§¼ÐKƒ(£&¦—F®cá~—¥É"±C·ë»ÝÀ¥Ób1Ê$hÀO³Z `=£
+ðÚ¤æ:žlñzßÄåkÌÁ‰Ó†·xþ¦AÍŽíZuÛjc}Ü_\±þã?Ô6ñ	_ŒÞ~TÄ÷*üñDFe®<V™’'GBÌ•P1:ƒïÚ¶ïø¨u
+1Óç9“
+$_‚DžCÊ3”)þ!HÅ„ïeI¸ðûW ÿB8ÕVu1ð}»N_t
+ÌƒòœLRAq–­åÅµJ;´w ˆˆñ".gìøèÝJi´‘Ü—Éâ±r©hhPAÊ™4-*x Fkðö½
+<x†?	‡uì¿ÃüïÙvàzµ&ƒ×†Cóöèâ»ÇSÁGê…òg[‹ÓB2N>ÓÈh+ì9¡ïô¿SŒf
+©BÒ4¸g¢e2m‚Û÷ð¡hÌ\iÎAó\Ëª;ãíù­XáÌ$	_¥®ŒÊ„gìw6Xä(ÏŒŽ²"_¤œþÒèH¢™¹2	r5ò“5YÌÞ¡
+Øƒ%þ:kåû7hÚÉ-{;í ¬#±Ó@acSà‚‚¬HÚl>S¦2ÓØ
+O'“Î|‡qJqIì(ã™~“f•#V:Î¹È;3§LÁÔù^i˜ä7¯`Âè;˜o£ƒh¼žÒìŽñKaÐ[©ßl¯6±4z˜{Õ-v'<•ì‘]œLvË³;®OÏfs™ç1-€ßxMMh¸]+´­ èŒ,œH0'PP(Å?ñ
+Ò›{ZM<„W"ü@SÓ$Ñ›ôvŸºuûtè¶AîTÞˆHNÒX…¸£ÝFÉˆê0 æ	;L¤Ê¢6!t*³§¡7?)¥o	¢g`Þ0EgO[Ä‹4v»ð*<
+m2»ëÚAí©r£Qf®„!Ë~I‡ˆÃˆbÝiF)‹’ý¹TÓÉþÏQ¿¢÷›Æ™‘ÛöAÊQ,ò‘Hã™ÒÄK
+‚É—ðào|‹çjã–Ï!îÞ¼ç¾ÆÎÏ­=Tqí6FÏû¿³ß¯¾Ü°ƒ«ËãHÙÕHPÈå%ÅŸ!_ŸÄÃÌÈe‹7UJ’~MtÝ4õ‘
+@É‘ ËTƒñ:˜½Ù†×!jšIìXë×3··ÿ¥¸ôpqgCäÜƒ8'/í—T<Î‘.b” .ÇÅåYÁG¥ŠgÏ&k7Û
+50tì #(	(2ËLÈ¦rNàõHƒ¾	rodw mÓƒ7ÛªMh±[`äq/Rž®™ÌF‡¢ôþ”)B‡lzÀ'£xïTrá{¤Œól»ÛëÕ‘'°‚ÛÍ÷×•'c0Ùœ³_OÙ/Õh3]MÀWç«æéä
+Ð3øºcoÄó 	½&2úTôºõLæ†mx5”Ëºq|Ðÿ¤ªë\JœÀdG?³“2eg·}6 •^$ì€©Â#y«ÿÄUaåñå31äª3º„øNk@0äo¯Wuíâ²Š\¶
+Û¸àëWK³º=·N?rü&7–ñ©¶v^¥2¡ó©CÊ…‹Ö«—íBÙOã8Ó>èjDˆ¾ñ­Hø‹xIöúD"·[03&•çzµ‘'hÛ´RÎôêööj€vi’À­ÈðÇéDä²(äòJ‡,ô m…œp4äë½n OÈ=ÃÍ8%ÓíúA‚ê·âR¸T›©Wb”š?àžUã­.VÎUIùÆ¸{#[
+Ø51›Ý|ˆÛëÖl¥FÑÍÙáçßÑ6Lfì-¦³Ndö@ƒÿ¢ù3"J@ì°zuzfø`bi&ïc¡?¡ý•Ì€‡ßš„|—x/{ý¾çua
+±9_Ä„
+M(‚uÉß‡Ëß˜&øÝžU{0ÛŠg`0C©ÂnåCJû?ÌÍ:Z’'WùÏìHNf<Õñ=ñd,ÍÂhgq*²{|S¢“Ï” E¨PÝÊ­¡£œ)˜Ê/4ÜùfÌLú'ö+ª_òõ+À‚]ñn’Ï‡x]¿W[êÄm%´ŸsNå/âH'cNåß¡s3dTRénVºHæ:Í!áTSBÃ@ë@Îa¬!àÔ}á­h]ƒüË¤¶áÕøšúˆ<ßª
+Àè5¥+¸§ýóæýKNy2Fá‡vÝT><}z\éÀ
+!ã,¢ÐªM‹¶½6Ø[Nš7™÷ÙEœñ¨Ld™³‘Ó J_qM‰ÑŽ*T¼P”á8ñ½è&¤¯ B¶ò¢…rìGŸñ×“Ò…—ñ\r mÃMôî5Ñ»[ïžµœ6|v‡r†
+ Õrõ]}hzghfÊ1ãì°L´ÿý,237'8M1ÎÍ‡–²Ñø:Ý|Hà(™CTƒ8z{[ÔHÒz¯Ç·1©QgöB·¶v¯ï48eíÁÕo§_.ooŒ8—g’w†òaZ¶Q~ÕˆF>¬ð1õ‘[½ZA+¥ïy\°³TqÚo8hÎÊ,Ÿ.8J#7Á§¸:hDõVUïñåï (žÁØ+Ýzð"žÆA	]Ç©ÍëÚ¡:|t$Çc6(‘º×š,&„¼Íå¨Š¥!Ça¾9à^©Àì^ðÐmuöø½Ú`±VŠ\~¹¹¸:;gg—ªÐËíÕïWY³$”Šw§q®ºœ h³®t?tŽ;“q²\å…\åã†š€ÿ« ’‹zôæõœNe–ÉìõawœM=}V7p{uI!¡ß
+ýÅ#»(³ùtñqUpíB¢B{ç†AC…xœ©é
+ôåª„ÙÇ†lcì·ë"5ÛáXÄïB3z¦î ×·ýZ‡Ÿ‹*n?©©¦ò1~bÇ¸ ïÈV9Š#¡ÁRÅÈ7rRŠ$¾øqý
+ãBm©tž”§ø­N¦Ð	äK
+Qåg¾D ²%ê;Ñ3Þ,”â
+9g;®6^ã¥Wx…Ï°q7îÙn}(¿ZX$×GÑ–L?Îæ2+Ôô˜©Ux‹B¸óÎ|ôæ%L©g"£$3×ï§Ž;Mkr¹n¯ÖØsýV8xð…*Y<˜Ç™¨,NÕå¦7ã#ùŽyb–©)Ñ
+HÉWÛÉò{nŽ·oò9ÔB•Ïi
+´Q©z{©"âK|MEr¹*¬Èu«µê¦LÅR•b"£4ÎÕ<PuâDPð<ÉlS.œñ”/?¨Z‰L|/u¡BhÙvh´|’³Ë÷‰K±{½->¡n“Sè‡J	òBÕF¼ì*SÕeM¨gŽ×
+-ÇÖÞ”|'Ô¬Vnºo*êÄ¶kry¶[Û°%lÊ„1.,ü%8aÓ”õ2Çìx›†‰3I'N©«û¬öŽØßôa‰iTÍÀCã–;Ô	µî7Ô6Nº®RŠóAýõ_Nyàå·å«U»#²c•
+Sþ-j·×¢`‡S.xS•üãY\L3žó%qÎÈÕ9GøäßDè”VíLÈó5èJµ‹‚:ÊwÃÆ=Øñ-VoÐ´JÐPÝnÃZA­
+KÁ-,’s9‰#¤ü9-;-ÙœÌ!U$ØåDœ&qÆÇc¡µ§„ )*'46Y;ï‹åÐ8>Ç¯*—ÜÌúa£c¢çÚµÙÇa;µá2ÁgÔ ó‚
+”šÃþJ‰ytö=d³vŠXPáø‰¡—˜êÀ‰L¥0Ž•Ö'xU	jø¦àAÂ‡`À”àÁxÞž“ÚüvF½©Os4“ç;–SçÝðšê¤—!8&OLœü)áy®,£/Ë¾.b_Õ¥0Y¢‚°º€	Úl—²!‹uP{&~¯»ámÜ_Ñ÷üÚ9»×Êl¶˜YûK>,fì8Ô‘j pŽL«2cð!<ë[¼“m\AY]@Ià@,ÁU’^ƒ£‡Ô³²•6É¦ô·`wÜc›Á–ŠVAõ'.e–%ÆvMººh]ÎD^Ð)!%?J^è
+Ev—N,LÖ@ZA™Õ'P—à†Bõ¡&˜(ey¡ûØ]: xó¨€
+»ãlÞ(°zžWwŒèù
+Ú¿që‰Ïqº¤»n£‹ê"$™¡9þ»,©|E>¥ä¾ÑÑTètÏ	:wqú¬õ¸‚¦käMg FMux/BÀQ7,Bd]×¯=Üè5¥J>5È zØäu©*"yO)‘Øä‚ ïÙYÎNE;–¸$úIB_!{Ñ<N}„#	ž/:kõ q¶Æ¢
+.Ä9LÅâ·U~Eûi%ŽÝtQ¸ð/a˜G¶@·Î=àaz‚õçU>ô@åÈŸàQ"áBcTÎã±Y“0ÛAÕ&pÜŽõ·UŠq®RÌ©ˆb¦™Éˆ}ÝƒW¡k\«(Dî¯/BÖJŸíã(‰çyu$R´™à¶ÛÂ`Êç¨“OyÄU£Ï©!½©fú7™Þ‘+
+·Ê¼Ò`qEÉXØª8ÐÝ»Ñ}Ø÷æñ¿»nm9;ðÛH×=*¥j\3*D'ÄÜÌê‹$‘(ï©k5
+†VóÆ`û¦c¾ÇÍØë:n­P¶{-å¼Ó)g Ø–Ç›—Y<V'^žDÊH/a¿9ÃU¨¼¸qAE&ÄÌ4¼åßå90¬ ‚†Z“#¨´ö•ßsê¾”ø ÌqoòÑÚncJaè×Æ™5 7>‹é'â‘HêÒÆn¨NñÕ‚RæØ1ê\hæEwL¥7™iñ–kyvÐëv8‚‚¡‰ ´ê¤ÞéšÏù¬…#pS~a¬Í{â¸^mš’ãÙ­´‹x:”ÔÅã¶ÌRFj‹uÑªp$k(_NŽ_MÍ„yÏ¾g.:¹†Gáz©Vzpº²B×â¬jG.!‚‚¸gÎºð=Îq¾»€ÕXŽ<pÝ°Öt÷Úi5w}vóéæìzÀ®Ï¿ªÍàaÕy`&QpJÇD-nHqiTr=ù“%@Âs’¡Þót"›ÈTµu ªñß	Ç<¡:OJí¹­lxš¨&gù&a4úí{Ý-}}š²×Œ£%Ž¾\U.û¿+ËüºÌæ2¨¹Ew•žúÛ4ÎïÄBÑ„ê8§#HfBirÚN¶ì\ƒCýIƒS¾Ð
+Ní½¬vÅ¼±éD³ì·j½·vØÊÉýáTÎqWÿç?þ'årDýæ” ÔnoBîIÆ§|†3OD'RÃë˜1’ñ@7æ¤0©À±÷B_*DÇÔÞgŽs@‰BmèÆVxà¸~$§RÂmXáƒë›+fk+üŸÿøß—.p¦þùÿÃNh€©êÝ•/Í²ÓJÐ¨gRÿÈ­Mõrj;‡ Tï«wÃµ.,±¤õ‡›ÌsD—–ÛŒæâèlÕf‚X~+M)?SëÁLJv-UmÉS”6¨™!ûRÄ	³r³"“wÕØs5ôê#èÏ¸½(šB¥EfÎ{éxðZŒ€Ø]«¶Hp¯µ‚Y?uÈS9_FîòDÜ‹Ä®ªaál¶ç`˜à©ôÕ
+µ&O—åm·–C*£XÇ‹=¯•Î"ŠgÔo#2ÊÁÉãG‘vFz(¢7O¶¹®"˜)o‚P;ÃN/ÔÞJÏñý:+ÖoJ‘2oÁ\f÷ñ=OÈg±šoD™§ÑÖ¯Ÿ…¼¿
+`;Ž¦’ÎîùžWKâ
+éÅæŠ(‘ë ÄOëq6Gº¬jYÈ™êlóT>ŽšÅâP¨Q<	MÍPAZ¿¾‚
+|	u­µm}uÏl‚ú¦Ç¶ÛµÃÚ€Q·)=ãðô¤Á‰·-‰>ê6:å<Æ-Ð9Z.ÖGÇep]M¿™ûU¦<¿ã"Ãý±Ã·”7Š ÀYM¯'oþ¨·¢½*Ë²#Ã‡]x=Â¦1äHj§6˜,´üVÙ¨&#ÄþÞíé¤ Ë¼§K ö»ï+8´ =ÓdEË÷ZÏe÷ÚÐ}TÄ»³~ªÊ'š*°f2½‹*¢_'Ùm¯lfÃs´šˆÓ\º<D¡NvzaS5$ãƒœërˆÊÀ”ÉŒàuš<-g2£¢HªÉ ¶,øçõ#>³Øˆˆ3þ8-ã!;s
+dFþéÊz/ÌæÀ÷È¡­&D÷Ô&ˆšàÕ„˜6  ’îuÊ¯¶’9¬KÍ}[°£YNÑ5Aœy"…úÄ¼c#%8YŒYÒ\Uuæ¾-`4Ë)Xe¢Î6Ç@…®xïE]xUã1ýn]nEÏî¶QÑì,½yAŠ!’4¡`¼j+>}R¥ßš`;ÒÉƒMtŒ‰b÷Ü°¶¦cIÌkPÅ2gWY<‰ÓœÙ—G¨§ 0}Ô}Pšð”ÜoýTß½–™Q¨„¸N]»3Dx(±¼*OeÕ£®¿„§óÙðî|
+Þ¾ùÐ‡Ýq7¶Uƒ Ô–Mr‚6’ž®9•¬*gì·ˆ‰å$l¯’Åln¶ƒÎ«ñV0ª&É%7Þ7a{Ð„åÐ·êHè8½66ÌÁ´)9e®¹•Š;ÏÑ¬tŒŒ™Pçª´“ë¡ÔUV(‡r508oMB3¿A@’æ=A‚ÀîÖäè­üŒÓ;žÇ‘Vd‘o§µ2¢&p,utµJº-6GÝ7ÿ…°Å¦„ÁÆš¹®µI£‘ÐéN8õ/¿á‘Y]
+´”ËÙ0“:ÝwL£A¶6Ú~i„lO85ñS¸Ö¬ì;nòÂZnr|«
+xúûõñ
+»8»¹¹º.ýŠrv”ºLàSæ„Ž
+û‰]Þ±ÁClØŸrº@;Œ
+Òf2Ûø Þf3xà÷
+M¡‹ú¼B§ú‚. u¿=Á‘Îô¶§(P©‘Óë)nÁú<!éù[eõ)DGŽ¥År5{¦FfàõÜZlÐJÅÝ/é˜ÇF¾Ö‰”#Í«åÆûæS4>Mg\=¿‰nPKÏn*•b~ÞxÓ?ürÞÿÈ®®>³³³3öÏü‡*	yxõåòÖ„4#Uš£BGèL¤ºC)ïÞ^gù”ñù÷ìK$N²©ØÀ+Žc]ö†èÑ´ï­9Ý¾;ÎpZí;mè+—â±Ì?¢Í”B‰õÖìj–ÆÃ2gÀ~E!AšLj´-ãIUU ï¤e$‚éH
+î Ê${/äuáÕ(7_5ŠKÇ
+ýZ-Çé¶’óŒYW¼zpsvt<`SÕëV2ÌâÑÛk¯¦töž³ñŽ0ÑƒBJƒ25õp¯eê^ØÆ±õ ’EÁéb„œü»•h“ñ4‰ŠŸ¾¼:¼=¾¹é3kyx)3õàÎ·r™+ˆúôeÊˆ Œ9Îc„¿NyÖò|Pfy[ç`‡*ŠûõKÁ‡
+ìk0Ïx-âÆ)¨Õ¶ç¢¶]m¬BÜSnk4ñTq%à-#²Óh‰L€êÓR6¾ùaË®íA=^M&Pc<|øÝº¼E¿ÛJhåuüÝ“)+Ú¬?QÔ(Ú8BúÚÈ½GÃâ¨C5¨þ¨Û©0¡Ñ@ úú½ë ^ÆÕ¸LI€æm îu{mh_Ô.$.EÏ+Þà)¡‘*ºJ@9à¦ÄúêH´X50¡y¤ÀånýšªVWÒ]	,T[¡>wÔÕ öÍÈ!ìŽsñBÛÔµ­­‹Á÷{µUË\¯étü‡Ê„öoÎúKÝÛÈ}Á‡"KbÝe–|¿KUµâ©•ùz
+Z]xŽ–qÈ³ºõÎA¯•]“hsü'bdB´æñ—y9ÙTdRGlŒ¶g¡jYð„“qB¿k»ÝÚœƒvšÃê€Z(0)ó;iBËCÁâûv7ìèU (U¾®·Wž±á;¼Œ™†Ò¶kƒ±ºíÏ©]¬*Ÿ{qòù¯l ¨ÿ4.ØMidf$(ßß
+—Í¯taÚÙøîäjl.¨~ô{á+^@ô…^
+¤ôÃZ^³Ü6ä_ g·ä'è£åˆbàö”õ//Ï~=¾ôo~×ÎR`¨UT[žåÿålpuÉ®NÌŠk
+#
+‚
+`«Ýœº€ý¼j²bÕùÈî‚‚
+t`HÁq{ÖW,SÔ›Dp£mB™¼õi_v+©&™à#šOv#(	ÝHgq,»g»¶íª:ªj8È6‡Û7{ðjæ$òüÚþh¨Ò´á¿–”Gål#.LC9G‘‚)U°ßÅÎèÃ:J¦ÕIÑ¨õ¿†MÉíÆÔ8È¤M%UÒº‹Åð§ÔÓ‘ÇºÀ	]2!ÔZDhñrHõæ—P´”± ÒP ‰u•u(û=x%¢½?›vI;´ƒZ…'ôZq®‹û8ùSN‰‘#jà¡)läE§‘¨jÇhÑ¬V7@Ý©¦jßä )ãD7Ìúæ ­T	¾Äo—ìÒZÖ½ š"¤¬ªþö	îÆì,ú„ôÐBc/iÑI	¤ÖFŽHV
+ä	P«¨Ù:¤·ëÉ§»ˆÔvÁÖTäöÂ°WDby^ƒîj\ô³ÈÆ‰
+-C2£–5¥2Hò!WÕE–% Oq
+Suö{93Jh¶|7ì^×
+;wO q¢ž ª*Ë
+‹Ó
+ ,Ö ¾Ywm«¯¦:jŸ»cÜè$°­´ïºõù·¶ßN?fÔö>ñ,‰ÿV
+òÁûS£ŸQd×B¨þw?Ñ‡ÁL˜•sl·gw=ËëDmRAu-k:de>U‘8i„T…åõ/ìwà®»Ž¹©.:Ýú>±¾×†.Õ¿É9g—åd"Š'i½ªúÌó‚
+~?nBb®@U U#>ÉÁUùd
+ñ»ç{–ê¶
+†ˆ®ƒžk×¾ûm¸OãÉ”V2:ìVSƒ¬,HJOÕh’«®A}@G†|sä}QÔí¸5y”œ†p[Ü•ë<~+®A}xIAî'%îÂrDM»s%%jcF~v\Åó¹J0§
+:} Hç„8í	*¨D•ß! ¨Ú¼¹û}W:ºð2Ž/ÄOoíDi×Ç‘¡šÝàf0ÎAºC‘°>U3öõÒûÄ¢Ôs¥qÊÎRœ]³"	É†¾u½^ýNW°'æ &âMxo–»+&üÕU€,Ûƒ16•¾]ÇªuM%NŒsz/âGvËçâgöúÇ‘Ìæ“ýŸÕaõo«ªÕRª]È¥;¹…§T2‹¸†.&åÎâG(x¤Á£P¨™fYÀœ ïWßòawŒ3ˆòÆD¦†ˆ`u€Zƒ«¦§"™³OHv±`Ÿ)–…Â'>"5ì†§³üŠlH5Çñã@@´‡5àVPŸ&ÈaköCß¼ˆà‡¬[3öƒÐ«cî ©ü±P?¢²ˆ’É’ªÞbª·º¤§q¹|ÛºÔê!ìŒÔð0RÃCNÃ¯æê.m¡5ÂnTàE›öæ¿¤ë¡Œ®­×Ö†
+üIˆ;vUL]p#(Â
+)N9RJËv&8P˜ºò7·qv#Uß!ÔÔª°·½X›ëzµ=êü&×”¹L*û‚
+îP÷Ó523>.žjÝjKÆHVCç4ru
+êƒ>&(O…bó
+({R†.¼Ï’ò·RÖò{uV©´Rˆ&þ†|¢ò`¥¼#ßøGö;y•
+ó(–ãEÕpOw`yK"·‘?±|…ˆiA~†š­Óµ­új5mTUP!_<UÓ8¾`…Tþ#v#xÂ>ËÙ°Œ¦œqRiÍ"p‡™x¸«ÆÑ!aPïóB*Z
+<å·€“Bøö¡¸»rªŽIz5º¦äö‚ÚZ½VÂ¬Ë¼³uõæ^PúÓ—”|¢?£âšQvéàe¯ÍãNG´2®ºE
+Úº2w¡T°PAÌªðæçÀö²»:¼Œî
+Õ¡¶»+|·Öjm
+ìi 6=l´PÎÒTÒ	r
+ª–Áœõ‡ß‘ÌÕ”JU¡ˆ3v)Ø fQ×q'ŽDDP´õ²¼«¼­ê>ä+èhütb³8ƒT<@¾ý­–Á
+²//Ñ)v`~Œñ7
+ËwznXk¿65{4(ÃJ2Ÿ³0òSy®mu}·×ëäj,ˆø|¿,ìÁ&xÙXjºQ&»½Ú€Š°•–]—øŽ‰ÈÖn}ü«Ëû]‰¸Gñ9uœ¡ÜÖ_e—qvÏS£z7t(íº=;è¤¬v«çU¹½9ÅýMÁ‚	ú{nÂÜ£Òåƒê†µmY½ú"WmœóÌÊuŠ? ¤Žóù7b1f¿ˆì9uÏ{ôý¼ºÆ}LŒá+
+ê>t÷Ë¸=¨‹Ôk‡Ÿi•Ëªõ:­8n¾\hóv0³¸`ý	YFº¥—	á4PÆº*ÑåLwòP#§‘«^XûV“hÂ®rñ£=Ü*k+`·ÑŒG5ÏäÙ½HX?+(Óâ¨ÉŽ®lÐ¿¼½¢ÞLýeñ ú‚Šxû‰úmŠ?¹™šUuø…O•U4Sàú´È1åâÂHæ¤k’R¾ªÜ|z¬³¿Požµ +†;!¼Äìe©1ËÃöÃn­ÝÔJ=Èþç›ã«KZYA¸SrG?M9»–#1Â
+Èl7V3’i‡ßeâíÓÂ—kõõ„t» Q!*)"
+©N`J]Ö–/jZùÝ®u:6Uø±<CÍÌ~ÏPcç)e3Gi4}TD\62õVá-9ÎWƒ§ùø¡ÊHTëÿé	ecƒN’TUc£
+–Á-Ø
+åRyÊ­ú£ú^“_ËØ¼Y#ÿ_yFÓc@àoê—ë4ý¶1Ö›m¹ñ$.¸Ú|^O8¾ÃË4TÕwºuG»©eõ1æUÆ£Då€_ð”›S#Õö+ÕœR9+ŠHR
+Kó1Ãaa¾>ì[Ñê,IJJ@X/ãñ2±4'ÕágÚ©ÔîõœÚn•N·•ªD6þr.eŠKó{±JÜGRªÐ—¼X_Å;‡½$8¶Ò‹=u0	ÝÃu®à­U'¢ÝéÈO]ôºS¾Jgë‰!^5äPßs¼Ú£ÔVÒÀ?É$Æ¥É>]³Áí9*¾äç*ð6Áà=
+™&×„Ì¨EÈ5f]aN¥³"žÓ˜¨O4	*KèUVÐUU?‡:Æoþd$˜=Xâ?™ïþ
+M'º
+‰²~}äKížtFzŠ„G¦?”¹ƒfn%ÒDt÷‘
+ðn:ú‘JKC ÇÃjø*mïC-ï.êHPßg³­
+KF+Á‡]Ñ6ƒìuk8û
+mKOPòóT )t^>–Ù‚Ý¢êQ¨Ê=$=kë"ï¶¥GwºàÍ\¤é•l‰ƒ·&®Q1gËíArdš“V6×ƒªFQ/V ijLÜuß©;5
+›þrýûvúÒÃmô=é#Žp±ßâ/“aÂ¿©=7µ–h}02š¦U7âêé
+•¦_Á‚LƒZ—oîŸŒ£Ý4¸ ^¬©SÃ	='¨än“‘d¼Ñ_È‚’
+PŒŸž¥8,ês7‡ÌBî^é¹b´t}ý€8@ÄŠéŒgwbÔ™ÉÄ%{'i35$›“jˆ¥Á‚øéí—n«Wôˆjæc«g×Ù¿a+e¾••5Zä¹ ÝÁ\D12ô9Z÷DÐ·¢¤ÔÞ>KwWZzºèÒŸ\¿/$ú}˜vnàvkÓœVr¾~)ÓˆL²_5Fø·_~ùw¤ãu¾ˆ¦2‘-ž§Y¬º¶]PëÝªìŒ	MÁg…ì|ýúö§{;%[{|]¾:|Õ¯_¿Â|ýµ©â¾zm2¢'¼*4ÓT˜²±^×êÖªZÉLùˆ’r«êw·"Ã,¦ÎàeV||*Tú§U™R½í†áÑ´Bç9ëäô²š\Q¦2ÎÔþ»RŸz_[¼7æ¶ÁyC‹;pÜzgu·Á¤ú¡(<}êã$“y1/S´£–§
+?Q§?ÅF«À²†TPP×§/‡§ÆzzL™µºo/ÿûw¯xÎS²ˆj%ö„|u>±z	SGšïvm5!'h:Jú!óùVfÑ% õX¤¸EåJp^ó·Ö¼çÎß¼–üÎ<¬ýd½8ªª~q}pL/Þ†Òe;ÝZÓ©6˜ÆæUˆD±¸FcXÿTI"$!U¼ÁÍê$H`‘Œên¤ÚÜ,p%Ä‰YøÕÍe±üûÖÞ¹‡çA…
+ðx®_^Õ·Ùß÷édU¯ŽFqk^Ý”´¾×
+íÚXJÏj#¿ä³@$Ãýø³ÃNQ"ãß/	®Öl€j&û-ÎD‚ÓÉ–!¶b¡:)dwbQ ,ú«€ÂS-‹W%…¡ÂCu»úêþ–ƒÏ°%ææmÌÜúˆ »ÛJßÏ«‡Ä9bƒi<.ôò§„£ñ‘kN'¸ÌÈcHÞñß©0Ùõ¡ÉRf¤ÿZSsRÁRœE®cK9’T(líô`ÖÛ‘6ÝÃ·ç[µ$­Èù¾øÈ~ãîáýt¡‹w±/)•g.ÈzŒSSÝ63Ç¢)Y°y'ãx 8Èúz@(W`@¬À¼5±r\ìFì ^‹kSøH“›ºÖÆ„Y–Õ†sø'É>‰Ô¦“ÍJÊŸÈdD
+Vâ=ÄÅ”¹Ÿq#/‘j.m#5Íê…n×w]Ç&¡?‘0AÀëòrŒiN—r0¸w¸"`Ø„¼?¦a
+}|»'äiÚ¶`¯‘7mCë†¨Xµ+£×ä[;ýÜ°2èá¶•q"qÏB@mƒnØ	'WÓm†PI©;ÚhŽ¶“g\NyV¦â±èŒ	1Ô}c5~QßRóµ	íwáE$_jÒÔ¡À
+×©m°ætÛ8õ©È&1i$"CºŠtD4O×ÿúÿþï”ÜlÈÿx÷Î„¸ëão|€
+!ð$@–®CÚ™-x5²Æ§¶[[¯Û	<pÆæ÷¯òñBœZZ¬ã‡L;A>eTtºˆ§©Y>ò½|œáè©¥„i?›ƒ½YÛ=ÔÒ
+‡ÐË´´¡B*ôfËwŸÐ«¯aÛDJ«ç»
+žrU!°î˜£˜Æ’øz¸‹9Cµ;Ÿ¦dËtbF¾X¦ñ7ÙùJÃâ^%æ¤`ëQ!Ùõíº^RµŒ×;Ä|°kÚBÃ&c:¬Ú& –Ó¤[½ŠnÿòßþåÿPK    M®v]_v¤àf2  É/            ¤    public/campaigns.jsonPK      C   ™2    
