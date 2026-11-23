@@ -322,7 +322,7 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
     <small>Your information will be sent securely to the PledgePilot team.</small></form></div></section></>;
 
   const pageContent={home:Home(),services:Services(),pricing:Pricing(),portfolio:Portfolio(),process:Process(),about:About(),contact:Contact()};
-  return <>{Header()}{pageContent[page]||Home()}{Footer()}</>;
+  return <>{Header()}<main id="main-content">{pageContent[page]||Home()}</main>{Footer()}</>;
 }
 
 createRoot(document.getElementById("root")).render(<App/>);
