@@ -148,7 +148,7 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
 };
 
   const Header=()=> <header className="header"><div className="container nav-wrap">
-    <a className="brand" href="#home" onClick={()=>setPage("home")} aria-label="PledgePilot home"><img src="/images/pledgepilot-logo.png" alt=""/><span className="brand-copy"><strong><span>Pledge</span><span>Pilot</span></strong><small>ELEVATE YOUR SUCCESS</small></span></a>
+    <a className="brand" href="#home" onClick={()=>setPage("home")} aria-label="PledgePilot home"><img src="/images/pledgepilot-logo.png" alt="" fetchPriority="high"/><span className="brand-copy"><strong><span>Pledge</span><span>Pilot</span></strong><small>ELEVATE YOUR SUCCESS</small></span></a>
     <button className="menu-toggle" onClick={()=>setMenuOpen(!menuOpen)} aria-label="Toggle navigation">{menuOpen?<X/>:<Menu/>}</button>
     <nav className={menuOpen?"nav open":"nav"}>
       {["home","services","pricing","portfolio","process","about","contact"].map(p=><a key={p} className={page===p?"active":""} href={"#"+p}>{p==="home"?"Home":p[0].toUpperCase()+p.slice(1)}</a>)}
