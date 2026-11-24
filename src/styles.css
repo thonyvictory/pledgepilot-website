@@ -475,3 +475,46 @@ body{background:#f4f6fb;color:var(--ink)}
   }
 }
 
+/* Restore testimonial movement on mobile */
+@media (max-width: 640px) {
+  .pp-testimonials-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(260px, 82vw)) !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory;
+    gap: 14px;
+    padding: 0 2px 14px;
+  }
+
+  .pp-testimonial-lane {
+    height: 650px !important;
+    scroll-snap-align: center;
+    overflow: hidden !important;
+  }
+
+  .pp-testimonial-track {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    animation: pp-testimonial-down 48s linear infinite !important;
+    transform: none;
+  }
+
+  .pp-testimonial-lane.pp-testimonial-lane--up .pp-testimonial-track {
+    animation: pp-testimonial-up 54s linear infinite !important;
+  }
+
+  .pp-testimonial-card {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pp-testimonial-track {
+    animation: none !important;
+  }
+}
+
+
