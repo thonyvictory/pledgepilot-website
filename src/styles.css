@@ -417,7 +417,6 @@ body{background:#f4f6fb;color:var(--ink)}
     flex-direction: column;
     gap: 16px;
     animation: none !important;
-    transform: none !important;
   }
 
   .pp-testimonial-card {
