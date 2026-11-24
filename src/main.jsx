@@ -218,7 +218,6 @@ const [newsletterLoading,setNewsletterLoading] = useState(false);
       .pp-testimonial-arrow.left{left:-18px}.pp-testimonial-arrow.right{right:-18px}.pp-testimonial-arrow.middle{top:3px;left:calc(66.666% - 43px);width:34px;height:52px}
       @keyframes pp-testimonial-down{from{transform:translateY(-50%)}to{transform:translateY(0)}}
       @keyframes pp-testimonial-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
-      @media(prefers-reduced-motion:reduce){.pp-testimonial-track{animation:none!important}}
       @media(max-width:900px){.pp-testimonials-grid{gap:14px}.pp-testimonial-card{padding:16px 14px}.pp-testimonial-person{gap:9px}.pp-testimonial-person img{width:48px;height:48px;flex-basis:48px}.pp-testimonial-person h3{font-size:.9rem}.pp-testimonial-person span{font-size:.74rem}.pp-testimonial-quote{font-size:.82rem}.pp-testimonial-lane{height:660px}}
       @media(max-width:640px){.pp-testimonials .pp-testimonials-heading{margin-bottom:28px}.pp-testimonials-heading>p{font-size:.92rem}.pp-testimonials-grid{grid-template-columns:repeat(3,minmax(260px,82vw));overflow-x:auto;overflow-y:hidden;padding:0 2px 14px;scroll-snap-type:x mandatory}.pp-testimonial-lane{height:650px;scroll-snap-align:center}.pp-testimonial-card{padding:18px;min-height:180px}.pp-testimonial-person h3{font-size:1rem}.pp-testimonial-person span{font-size:.82rem}.pp-testimonial-quote{font-size:.9rem}.pp-testimonial-arrow{display:none}}
     `}</style>
