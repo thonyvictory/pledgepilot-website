@@ -523,7 +523,5 @@ body{background:#f4f6fb;color:var(--ink)}
     min-width: 0;
   }
 }
-
-
-
-
+/* Footer location */
+.footer-location{font-size:12px;color:#c3cfe6;line-height:1.6;margin:13px 0}
